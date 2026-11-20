@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three.js Story Video Renderer</title>
+  <meta name="description" content="Render story videos with scene maps, transcript duration analysis, and style accuracy tracking">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Three.js Story Video Renderer</h1>
+    <p>Scene maps • Transcript duration • Style accuracy tracking (90% target)</p>
+  </header>
+
+  <nav>
+    <button data-panel="overview" onclick="app.showPanel('overview')">Overview</button>
+    <button data-panel="scene-map" onclick="app.showPanel('scene-map')">Scene Map</button>
+    <button data-panel="transcript" onclick="app.showPanel('transcript')">Transcript</button>
+    <button data-panel="style" onclick="app.showPanel('style')">Style Reference</button>
+    <button data-panel="render" onclick="app.showPanel('render')">Render Video</button>
+    <button data-panel="settings" onclick="app.showPanel('settings')">Settings</button>
+  </nav>
+
+  <main>
+    <!-- Overview Panel -->
+    <section id="panel-overview" class="panel active">
+      <div class="card">
+        <h2>Project Overview</h2>
+        <p>This project renders a Three.js animated story video driven by a <strong>scene map</strong> and <strong>transcript</strong>. Each clause of the voiceover becomes a camera shot; each section becomes a 3D world. Style reference sheets guide the visual look with a 90% accuracy target.</p>
+
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-value" id="stat-scenes">--</div>
+            <div class="stat-label">Scenes</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value" id="stat-shots">--</div>
+            <div class="stat-label">Camera Shots</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value" id="stat-duration">--</div>
+            <div class="stat-label">Duration (s)</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value" id="stat-style">--</div>
+            <div class="stat-label">Style Accuracy</div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" onclick="app.loadSceneMap()">Load Scene Map</button>
+          <button class="btn btn-primary" onclick="app.loadTranscript()">Load Transcript</button>
+          <button class="btn btn-success" onclick="app.renderVideo()">Render Video</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scene Map Panel -->
+    <section id="panel-scene-map" class="panel">
+      <div class="card">
+        <h2>Scene Map</h2>
+        <p>Defines what to shoot: worlds, shots, props, characters, lighting, camera moves.</p>
+
+        <div class="json-editor">
+          <textarea id="scene-map-editor" placeholder="Paste your scene map JSON here..."></textarea>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" onclick="app.saveSceneMap()">Save Scene Map</button>
+          <button class="btn btn-secondary" onclick="app.validateSceneMap()">Validate</button>
+        </div>
+
+        <div id="scene-map-preview" class="preview"></div>
+      </div>
+    </section>
+
+    <!-- Transcript Panel -->
+    <section id="panel-transcript" class="panel">
+      <div class="card">
+        <h2>Transcript & Duration</h2>
+        <p>Word-level transcript with timestamps. Duration is calculated from the transcript and matched to scene map clauses.</p>
+
+        <div class="json-editor">
+          <textarea id="transcript-editor" placeholder="Paste your transcript JSON here..."></textarea>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" onclick="app.saveTranscript()">Save Transcript</button>
+          <button class="btn btn-secondary" onclick="app.calculateDuration()">Calculate Duration</button>
+        </div>
+
+        <div id="transcript-preview" class="preview"></div>
+      </div>
+    </section>
+
+    <!-- Style Panel -->
+    <section id="panel-style" class="panel">
+      <div class="card">
+        <h2>Style Reference Sheets</h2>
+        <p>Define the visual style targets. The renderer checks every frame for style accuracy with a 90% target.</p>
+
+        <div class="json-editor">
+          <textarea id="style-editor" placeholder="Paste your style reference JSON here..."></textarea>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" onclick="app.saveStyle()">Save Style Reference</button>
+          <button class="btn btn-secondary" onclick="app.checkStyleAccuracy()">Check Style Accuracy</button>
+        </div>
+
+        <div id="style-preview" class="preview"></div>
+      </div>
+    </section>
+
+    <!-- Render Panel -->
+    <section id="panel-render" class="panel">
+      <div class="card">
+        <h2>Render Video</h2>
+        <p>Render the Three.js animation to MP4 with voiceover muxed, no captions, painted ink look.</p>
+
+        <div class="render-controls">
+          <div>
+            <label>Resolution:</label>
+            <select id="render-resolution">
+              <option value="1920x1080">1920x1080 (1080p)</option>
+              <option value="1280x720">1280x720 (720p)</option>
+              <option value="854x480">854x480 (480p)</option>
+            </select>
+          </div>
+
+          <div>
+            <label>FPS:</label>
+            <select id="render-fps">
+              <option value="30">30 FPS</option>
+              <option value="60">60 FPS</option>
+            </select>
+          </div>
+
+          <div>
+            <label>Style Accuracy Target:</label>
+            <input type="number" id="style-target" value="90" min="0" max="100">
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-success btn-large" onclick="app.renderVideo()">Start Render</button>
+        </div>
+
+        <div id="render-progress" class="hidden">
+          <div class="progress-bar"><div class="progress-fill" id="render-fill"></div></div>
+          <div id="render-status">Preparing render...</div>
+        </div>
+
+        <div id="render-output" class="hidden"></div>
+      </div>
+    </section>
+
+    <!-- Settings Panel -->
+    <section id="panel-settings" class="panel">
+      <div class="card">
+        <h2>Settings</h2>
+
+        <div class="setting">
+          <label>Default Style Accuracy Target:</label>
+          <input type="number" id="setting-style-target" value="90">
+        </div>
+
+        <div class="setting">
+          <label>Default Resolution:</label>
+          <select id="setting-resolution">
+            <option value="1920x1080">1920x1080</option>
+            <option value="1280x720">1280x720</option>
+          </select>
+        </div>
+
+        <div class="setting">
+          <label>Enable Painted Ink Look:</label>
+          <input type="checkbox" id="setting-ink-look" checked>
+        </div>
+
+        <div class="setting">
+          <label>Mux Voiceover:</label>
+          <input type="checkbox" id="setting-mux-voiceover" checked>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" onclick="app.saveSettings()">Save Settings</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Three.js Story Video Renderer • Built for GitHub • Render video with scene maps and transcript</p>
+  </footer>
+
+  <!-- Three.js and App -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.165.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script src="js/main.js"></script>
+  <script src="js/scene-map.js"></script>
+  <script src="js/transcript.js"></script>
+  <script src="js/style-analyzer.js"></script>
+  <script src="js/renderer.js"></script>
+  <script>
+    // Make sure app is globally available
+    if (typeof window.app === 'undefined') {
+      // Fallback: create a minimal app instance if modules didn't load properly
+      window.app = {
+        showPanel: () => {},
+        loadSceneMap: () => {},
+        loadTranscript: () => {},
+        renderVideo: () => {},
+        saveSceneMap: () => {},
+        validateSceneMap: () => {},
+        saveTranscript: () => {},
+        calculateDuration: () => {},
+        saveStyle: () => {},
+        checkStyleAccuracy: () => {},
+        saveSettings: () => {}
+      };
+    }
+  </script>
+</body>
+</html>

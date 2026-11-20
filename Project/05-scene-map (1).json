@@ -1,0 +1,4873 @@
+{
+ "meta": {
+  "title": "House of Butterflies",
+  "fps": 30,
+  "timing_source": "srt",
+  "producer": "three_toon",
+  "is_excerpt": false,
+  "notes": "One shot per clause (56 clauses, 204.9 s). Timing is the word-level transcript as delivered; no voiceover audio file was supplied. Transcript tokenisation artifacts ('co -worker', 'U .S.', '1 ,300') are kept in the narration exactly as delivered. Clause C031/C032 splits the sentence at 'suicide.' (the 1.0 s dramatic pause sits in C032) and C051/C052 splits '98 | years': both kept from the splitter and flagged for review."
+ },
+ "assumptions": [
+  "The tetraethyl lead production room, workers' overalls, tally board and caged bulbs are plausible 1920s industrial choices, not from the script.",
+  "The 'House of Butterflies' co-worker is shown as an old man at the Deepwater plant around 1950; the script gives only 'a quarter century later' and 'about 25 years after the deaths'.",
+  "Midgley's lab, GM reports office, filling station, Miami beach, Frigidaire lab, lecture hall, bedroom and coroner's office are plausible period settings invented for staging.",
+  "Hotel, deck chairs, bathers, waiter and brass band at Miami are invented to show a holiday; the script only says he took a vacation to recover.",
+  "The warning letter, calendar flips and ledgers are invented staging for 'warned as early as 1922', 'Counts of the dead differ' and dates; the script gives no such props.",
+  "Stretcher bearers, a woman at the gate and a plant manager (Dayton), the eight caps in the Deepwater locker room, the nurse and doctor at the Bayway ward are invented illustration of deaths; no gore is shown.",
+  "'LOONY GAS' chalked on a barrel and the SHUT notice are invented staging for 'called the additive loony gas' and 'ordered the plant shut'.",
+  "The press room details (grey suit, photographer, bottle on a side table, wall sign) are invented staging of Midgley holding the bottle under his nose.",
+  "The 1 in 1,300 vat with a single drop is a staging metaphor for the claim; the SAFE stamp is invented.",
+  "The two-gas flame and canary test at Frigidaire is an invented illustration of 'neither toxic nor flammable' (canaries were a common period toxicity test, not stated in the script).",
+  "Midgley's death scene shows only the housekeeper, the empty rope hoist and sling; no body is depicted. The hoist, sling and pulley wheel are assumed from 'ropes and pulleys he had built'.",
+  "The coroner stamp SUICIDE and the ACCIDENT headline stage 'a coroner ruled it a suicide / many accounts call it an accident'; the newspaper boy is invented.",
+  "The 1987 treaty hall with delegates signing, the wall map with an ozone patch, the museum timeline hall with a balance scale and the 2021 modern station are metaphors/illustrations for narration lines about CFC restriction, the historian's quote and 'no driver on Earth'.",
+  "The Algeria depot (tanks, hut, gauge board, tanker) is invented from 'the last stockpile, in Algeria'.",
+  "Needleman's long coat, black bag and the three older men in the shack are invented staging; the script says he asked about older men sitting apart, moving slowly with distant, empty voices.",
+  "Pale paper-white flecks (motif M1) stand for the insects the men saw; they return at the end as the payoff. Invented visual device.",
+  "Overlay text numbers/dates are digits from the narration; 'ethyl' and names are repeated as on-screen text for fact anchoring."
+ ],
+ "shots": [
+  {
+   "id": "C001",
+   "beat_id": "B01",
+   "start": 0.0,
+   "end": 3.34,
+   "narration": "By 1925, 17 men had died making",
+   "story_function": "hook",
+   "job": "show_stakes",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "the tetraethyl lead production room of an American ethyl plant, 1925",
+    "world_id": "W01",
+    "world": "Long brick-walled production hall, 30 m by 12 m, with riveted iron mixing tanks on raised platforms, glass-fronted gauge boards, rubber-hosed lead-additive reactors, a chalk tally board by the door, pale green-tiled floor with drain channels, caged bulbs hanging from the rafters, rows of grey canvas overalls on wall pegs, narrow barred windows high up",
+    "time_of_day": "late afternoon, low amber light through the high windows and yellow caged bulbs",
+    "weather": "dry and stuffy, no wind; faint chemical haze hanging under the rafters"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "shift foreman",
+     "does": "walks the length of the tally board by the door and drags a chalk stroke through a bundle of marks",
+     "narrates": "By 1925"
+    },
+    {
+     "at": 1.0,
+     "who": "lead-plant workers",
+     "does": "stand in a ragged row between the tanks with caps pulled off and heads bowed",
+     "narrates": "17 men"
+    },
+    {
+     "at": 2.0,
+     "who": "a worker at the nearest tank",
+     "does": "sways, grabs the rail with both hands and slowly sinks to one knee",
+     "narrates": "had died"
+    },
+    {
+     "at": 2.7,
+     "who": "a gauge needle on the reactor board",
+     "does": "quivers and jumps as a valve hisses open",
+     "narrates": "making"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "the chalk tally board crowded with marks"
+    },
+    {
+     "at": 1.7,
+     "move": "pan_right",
+     "to": "along the row of bowed workers to the man on his knee"
+    }
+   ],
+   "literal": "Inside the 1925 lead-additive hall a foreman strokes the last chalk mark onto a crowded tally board while seventeen workers stand with caps off between the iron tanks; the camera pushes in on the marks, then pans along the row to a worker sinking to one knee as a gauge needle shivers.",
+   "camera_move": "push_in",
+   "characters": [
+    "shift foreman",
+    "lead-plant workers"
+   ],
+   "background": "Tetraethyl lead production room, 1925",
+   "props": [
+    "chalk tally board"
+   ],
+   "mood_target": "grim, held breath",
+   "ambient_visual": "A scatter of pale paper-white flecks drifts through the lamp light under the rafters while a caged bulb swings a few centimetres on its cord",
+   "ambient_audio": "Slow hiss of the reactor valves and a tap dripping into a drain",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "1925 · 17 men",
+   "pattern_interrupt": true,
+   "hero": true,
+   "motif_id": "M1",
+   "motif_event": "start",
+   "carry": {
+    "type": "fly_through",
+    "from": "the high barred window above the tanks",
+    "to": "the gravel yard outside in daylight",
+    "via": "the camera rises through the barred window into pale daylight and the seasons wheel past outside",
+    "frames": 24
+   },
+   "new_assets": [
+    "shift foreman",
+    "lead-plant workers",
+    "chalk tally board",
+    "Tetraethyl lead production room, 1925"
+   ],
+   "loop_opened": [
+    "L1: what additive killed seventeen men?"
+   ]
+  },
+  {
+   "id": "C002",
+   "beat_id": "B01",
+   "start": 3.34,
+   "end": 6.38,
+   "narration": "one gasoline additive. A quarter century later,",
+   "story_function": "bridge",
+   "job": "show_time",
+   "scene_type": "environment",
+   "setting": {
+    "place": "the yard outside the old tetraethyl lead building at Deepwater, New Jersey, around 1950",
+    "world_id": "W02",
+    "world": "Open gravel yard 60 m across with a tall weathered three-storey brick production building along one side, rusted fire escape, boarded lower windows, a cinder path to a small wooden gatehouse, stacked empty drums by the fence, bare poplar trees, a chain-link fence and the river flats beyond with a low tank farm on the horizon",
+    "time_of_day": "overcast late morning, flat grey-white light",
+    "weather": "cool and still, scattered dead leaves skittering on the gravel"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a calendar page",
+     "does": "peels off a nailed gatehouse calendar and tumbles across the gravel in the wind",
+     "narrates": "one gasoline additive"
+    },
+    {
+     "at": 1.0,
+     "who": "a gatehouse guard",
+     "does": "shoves his window shut and turns up his coat collar",
+     "narrates": "A quarter century"
+    },
+    {
+     "at": 2.0,
+     "who": "a pigeon flock",
+     "does": "lifts off the building's rusted fire escape and wheels over the yard",
+     "narrates": "later"
+    },
+    {
+     "at": 2.8,
+     "who": "a line of drums",
+     "does": "rolls and stops against the fence as the wind pushes it",
+     "narrates": "gasoline"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "tilt_up",
+     "to": "from the drifting calendar page to the weathered brick production building"
+    },
+    {
+     "at": 2.0,
+     "move": "crane_up",
+     "to": "high over the yard toward the building's blank face"
+    }
+   ],
+   "literal": "Daylight on the Deepwater yard around 1950 as a nailed-up calendar page tears loose and blows across the gravel; a guard shuts his window and a flock of pigeons lifts off the fire escape while the camera tilts up the weathered brick building and cranes over the yard.",
+   "camera_move": "tilt_up",
+   "characters": [
+    "gatehouse guard"
+   ],
+   "background": "Deepwater plant yard, around 1950",
+   "props": [
+    "wind-blown calendar page"
+   ],
+   "mood_target": "waiting, years passing",
+   "ambient_visual": "Pale paper-white flecks and dead leaves skitter across the gravel and a loose shutter on the boarded windows taps against the brick",
+   "ambient_audio": "Wind in bare poplars and a far-off freight whistle",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "25 years later",
+   "motif_id": "M1",
+   "motif_event": "continue",
+   "carry": {
+    "type": "follow_object",
+    "from": "the blowing calendar page",
+    "to": "the old co-worker at the gate",
+    "via": "the camera chases the page along the gravel until it flattens against an old man's boot",
+    "frames": 22
+   },
+   "new_assets": [
+    "gatehouse guard",
+    "wind-blown calendar page",
+    "Deepwater plant yard, around 1950"
+   ]
+  },
+  {
+   "id": "C003",
+   "beat_id": "B01",
+   "start": 6.38,
+   "end": 9.9,
+   "narration": "a co -worker still called the building where they made it the House of Butterflies,",
+   "story_function": "setup",
+   "job": "introduce_character",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "the yard outside the old tetraethyl lead building at Deepwater, New Jersey, around 1950",
+    "world_id": "W02",
+    "world": "Open gravel yard 60 m across with a tall weathered three-storey brick production building along one side, rusted fire escape, boarded lower windows, a cinder path to a small wooden gatehouse, stacked empty drums by the fence, bare poplar trees, a chain-link fence and the river flats beyond with a low tank farm on the horizon",
+    "time_of_day": "overcast late morning, flat grey-white light",
+    "weather": "cool and still, scattered dead leaves skittering on the gravel"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "old co-worker",
+     "does": "lowers himself onto an upturned drum and jerks a thumb at the brick building behind him",
+     "narrates": "a co -worker still called the building"
+    },
+    {
+     "at": 1.2,
+     "who": "old co-worker",
+     "does": "flaps both hands in front of his chest like fluttering wings and grins",
+     "narrates": "House of Butterflies"
+    },
+    {
+     "at": 2.4,
+     "who": "a young apprentice",
+     "does": "stops with a barrow and stares up at the windows",
+     "narrates": "where they made it"
+    },
+    {
+     "at": 3.1,
+     "who": "old co-worker",
+     "does": "waves a hand to brush a nothing off his sleeve",
+     "narrates": "still called"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in toward the old man on the drum, eye level"
+    },
+    {
+     "at": 2.0,
+     "move": "orbit",
+     "to": "half a circle around him until the brick building fills the background"
+    }
+   ],
+   "literal": "At the plant gate in 1950 an old co-worker lowers himself onto a drum, jerks a thumb at the brick building behind him and flaps his hands like wings while a young apprentice stops his barrow to stare; the camera dollies in, then orbits until the building fills the frame.",
+   "camera_move": "dolly",
+   "characters": [
+    "old co-worker",
+    "young apprentice"
+   ],
+   "background": "Deepwater plant yard, around 1950",
+   "mood_target": "wry, remembered",
+   "ambient_visual": "Pale moth-like flecks of paper drift past the building's windows while the old man talks",
+   "ambient_audio": "Gravel crunch and the creak of the fence gate",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "motif_id": "M1",
+   "motif_event": "continue",
+   "carry": {
+    "type": "glide",
+    "from": "the building's second-floor windows",
+    "to": "the inside of a lead hall",
+    "via": "slow crane up the brick face to a window, then the camera slides through its glass into the hall",
+    "frames": 26
+   },
+   "new_assets": [
+    "old co-worker",
+    "young apprentice"
+   ],
+   "reused_assets": [
+    "Deepwater plant yard, around 1950"
+   ],
+   "loop_opened": [
+    "L2: what is the House of Butterflies, and why that name?"
+   ]
+  },
+  {
+   "id": "C004",
+   "beat_id": "B01",
+   "start": 9.9,
+   "end": 13.76,
+   "narration": "because the men inside brushed insects off their bodies that were not there.",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "the tetraethyl lead production room of an American ethyl plant, 1925",
+    "world_id": "W01",
+    "world": "Long brick-walled production hall, 30 m by 12 m, with riveted iron mixing tanks on raised platforms, glass-fronted gauge boards, rubber-hosed lead-additive reactors, a chalk tally board by the door, pale green-tiled floor with drain channels, caged bulbs hanging from the rafters, rows of grey canvas overalls on wall pegs, narrow barred windows high up",
+    "time_of_day": "late afternoon, low amber light through the high windows and yellow caged bulbs",
+    "weather": "dry and stuffy, no wind; faint chemical haze hanging under the rafters"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "lead-plant worker",
+     "does": "slaps at his own forearm and shoulder as if something is crawling on him",
+     "narrates": "the men inside brushed insects"
+    },
+    {
+     "at": 1.1,
+     "who": "a second worker",
+     "does": "swipes at his neck and spins in a half-circle with wide eyes",
+     "narrates": "off their bodies"
+    },
+    {
+     "at": 2.2,
+     "who": "a third worker",
+     "does": "backs against a tank and drags both hands down his chest",
+     "narrates": "that were not there"
+    },
+    {
+     "at": 3.0,
+     "who": "shift foreman",
+     "does": "stands in the middle of the hall, palms out, seeing nothing on them",
+     "narrates": "not there"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "track",
+     "to": "in front of the first worker as he slaps at himself"
+    },
+    {
+     "at": 2.0,
+     "move": "orbit",
+     "to": "around the foreman standing still among the swatting men"
+    }
+   ],
+   "literal": "Back in the production hall the men swat at their own arms and necks, spinning and brushing at insects that are not there; the camera tracks the first worker's slapping hands, then orbits the foreman standing perfectly still among the swatting men with empty palms.",
+   "camera_move": "track",
+   "characters": [
+    "lead-plant workers",
+    "shift foreman"
+   ],
+   "background": "Tetraethyl lead production room, 1925",
+   "mood_target": "unnerving, restless",
+   "ambient_visual": "A swarm of pale paper-white flecks turns slowly in a bar of light and a caged bulb ticks as it cools",
+   "ambient_audio": "Boots on tile, a faint ringing tone, the scrape of palms on cloth",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "motif_id": "M1",
+   "motif_event": "continue",
+   "carry": {
+    "type": "follow_object",
+    "from": "the foreman's empty open hand",
+    "to": "a dented gasoline-additive can on a bench",
+    "via": "the camera slides off his open palm onto the can on a bench beside him",
+    "frames": 22
+   },
+   "reused_assets": [
+    "lead-plant workers",
+    "shift foreman",
+    "Tetraethyl lead production room, 1925"
+   ]
+  },
+  {
+   "id": "C005",
+   "beat_id": "B02",
+   "start": 13.76,
+   "end": 17.82,
+   "narration": "The additive was lead. In 1921, a General Motors chemist named",
+   "story_function": "setup",
+   "job": "introduce_character",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a General Motors research laboratory in Dayton, Ohio, 1921",
+    "world_id": "W03",
+    "world": "Brick-walled laboratory 15 m wide with long oak benches, a single-cylinder test engine bolted to a cast-iron stand with a brass knock-gauge and exhaust pipe, shelves of amber glass bottles, a lead ingot on a scale, a rolltop desk by the window, gas jets, chalk equations on a slate board, green-shaded desk lamps",
+    "time_of_day": "mid-morning, strong white window light from the left",
+    "weather": "clear, cold; breath faintly visible near the window"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Thomas Midgley",
+     "does": "sets a grey lead ingot on a brass scale and watches the needle swing",
+     "narrates": "The additive was lead"
+    },
+    {
+     "at": 1.1,
+     "who": "a lab assistant",
+     "does": "carries a tray of amber bottles in and sets it beside the engine",
+     "narrates": "In 1921"
+    },
+    {
+     "at": 2.2,
+     "who": "Thomas Midgley",
+     "does": "turns and straightens his white coat, gazing into the room",
+     "narrates": "a General Motors chemist"
+    },
+    {
+     "at": 3.1,
+     "who": "the chalk equations",
+     "does": "are tapped by Midgley's knuckle on the slate board",
+     "narrates": "named"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the lead ingot on the brass scale"
+    },
+    {
+     "at": 2.0,
+     "move": "pull_back",
+     "to": "to reveal Midgley in the full laboratory beside the knock engine"
+    }
+   ],
+   "literal": "In a 1921 General Motors laboratory a chemist sets a grey lead ingot on a brass scale; the camera pushes in on the swinging needle then pulls back to show Thomas Midgley in a white coat beside a test engine while an assistant sets down a tray of amber bottles.",
+   "camera_move": "push_in",
+   "characters": [
+    "Thomas Midgley",
+    "lab assistant"
+   ],
+   "background": "General Motors research laboratory, 1921",
+   "props": [
+    "lead ingot on a brass scale",
+    "single-cylinder test engine"
+   ],
+   "mood_target": "curious, clinical",
+   "ambient_visual": "Dust and a faint blue gas-flame flicker move in the window light above the bench",
+   "ambient_audio": "Clink of glass, a gas jet hissing, a pen scratching",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "1921 · General Motors",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "follow_object",
+    "from": "Midgley's pointing finger",
+    "to": "the engine on its test stand",
+    "via": "his finger slides along the slate board then points at the engine and the camera follows it down",
+    "frames": 22
+   },
+   "new_assets": [
+    "Thomas Midgley",
+    "lab assistant",
+    "lead ingot on a brass scale",
+    "single-cylinder test engine",
+    "General Motors research laboratory, 1921"
+   ],
+   "loop_opened": [
+    "L3: what did the chemist discover?"
+   ],
+   "loop_closed": [
+    "L1"
+   ]
+  },
+  {
+   "id": "C006",
+   "beat_id": "B02",
+   "start": 17.82,
+   "end": 22.24,
+   "narration": "Thomas Midgley found that a little tetraethyl lead stopped engines from knocking,",
+   "story_function": "explanation",
+   "job": "show_mechanism",
+   "scene_type": "mechanism",
+   "setting": {
+    "place": "a General Motors research laboratory in Dayton, Ohio, 1921",
+    "world_id": "W03",
+    "world": "Brick-walled laboratory 15 m wide with long oak benches, a single-cylinder test engine bolted to a cast-iron stand with a brass knock-gauge and exhaust pipe, shelves of amber glass bottles, a lead ingot on a scale, a rolltop desk by the window, gas jets, chalk equations on a slate board, green-shaded desk lamps",
+    "time_of_day": "mid-morning, strong white window light from the left",
+    "weather": "clear, cold; breath faintly visible near the window"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Thomas Midgley",
+     "does": "tips a dropper of clear fluid into the engine's fuel cup",
+     "narrates": "found that a little tetraethyl lead"
+    },
+    {
+     "at": 1.2,
+     "who": "the test engine",
+     "does": "bucks and pings, then settles into a smooth idle",
+     "narrates": "stopped engines from knocking"
+    },
+    {
+     "at": 2.3,
+     "who": "the knock-gauge needle",
+     "does": "drops from the red to the green and stays there",
+     "narrates": "stopped"
+    },
+    {
+     "at": 3.3,
+     "who": "a lab assistant",
+     "does": "claps his hands and grins",
+     "narrates": "knocking"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in over Midgley's shoulder to the fuel cup"
+    },
+    {
+     "at": 2.2,
+     "move": "orbit",
+     "to": "around the engine to the gauge needle falling to green"
+    }
+   ],
+   "literal": "Midgley tips a dropper of clear fluid into the engine's fuel cup and the test engine bucks and pings before settling into a smooth hum; the camera dollies in over his shoulder, then orbits the engine to the knock-gauge needle dropping from red to green as an assistant claps.",
+   "camera_move": "dolly",
+   "background": "General Motors research laboratory, 1921",
+   "props": [
+    "brass knock-gauge"
+   ],
+   "mood_target": "hopeful, precise",
+   "ambient_visual": "Faint exhaust vapour curls from the test engine's pipe and a gauge needle flutters",
+   "ambient_audio": "Engine knocking, then smoothing into an even hum",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "carry": {
+    "type": "follow_object",
+    "from": "the gauge needle settling on green",
+    "to": "a rattling engine head under heavy load",
+    "via": "the needle's last tremble becomes the shudder of a bigger engine and the camera slides across to it",
+    "frames": 24
+   },
+   "new_assets": [
+    "brass knock-gauge"
+   ],
+   "reused_assets": [
+    "General Motors research laboratory, 1921"
+   ]
+  },
+  {
+   "id": "C007",
+   "beat_id": "B02",
+   "start": 22.24,
+   "end": 26.42,
+   "narration": "the pinging that can wreck an engine under heavy load. GM called the product ethyl,",
+   "story_function": "explanation",
+   "job": "show_mechanism",
+   "scene_type": "object_closeup",
+   "setting": {
+    "place": "a General Motors research laboratory in Dayton, Ohio, 1921",
+    "world_id": "W03",
+    "world": "Brick-walled laboratory 15 m wide with long oak benches, a single-cylinder test engine bolted to a cast-iron stand with a brass knock-gauge and exhaust pipe, shelves of amber glass bottles, a lead ingot on a scale, a rolltop desk by the window, gas jets, chalk equations on a slate board, green-shaded desk lamps",
+    "time_of_day": "mid-morning, strong white window light from the left",
+    "weather": "clear, cold; breath faintly visible near the window"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a loaded test engine",
+     "does": "hammers and pings as the dynamometer brake bites",
+     "narrates": "the pinging that can wreck an engine under heavy load"
+    },
+    {
+     "at": 1.6,
+     "who": "a piston rod",
+     "does": "shudders and a bolt rattles loose onto the bench",
+     "narrates": "can wreck an engine"
+    },
+    {
+     "at": 2.6,
+     "who": "a lab assistant",
+     "does": "lifts a tin can and paints the word ETHYL across it in white",
+     "narrates": "GM called the product ethyl"
+    },
+    {
+     "at": 3.5,
+     "who": "Thomas Midgley",
+     "does": "holds the can up beside the engine, nodding",
+     "narrates": "product ethyl"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the shaking engine head and a loosening bolt"
+    },
+    {
+     "at": 1.8,
+     "move": "tilt_up",
+     "to": "from the bolt on the bench to the can being painted"
+    },
+    {
+     "at": 3.2,
+     "move": "reframe",
+     "to": "wide on Midgley holding the can"
+    }
+   ],
+   "literal": "A loaded test engine hammers and pings until a bolt rattles loose onto the bench; the camera pushes in on the shaking head, then tilts up to an assistant painting the word ETHYL across a tin can that Midgley lifts beside the engine.",
+   "camera_move": "push_in",
+   "background": "General Motors research laboratory, 1921",
+   "props": [
+    "tin can marked ETHYL"
+   ],
+   "mood_target": "urgent, gritty",
+   "ambient_visual": "Steam and a thin smear of oil pulse from the loaded engine's seams and a bench lamp flickers",
+   "ambient_audio": "Hard engine pinging, a metal tick, then a quiet can being set down",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "Ethyl",
+   "carry": {
+    "type": "whip_pan",
+    "from": "the white ETHYL lettering on the can",
+    "to": "a GM report page in a clerk's hand",
+    "via": "the camera whips off the painted can across the room onto a typed report page",
+    "frames": 12
+   },
+   "new_assets": [
+    "tin can marked ETHYL"
+   ],
+   "reused_assets": [
+    "General Motors research laboratory, 1921"
+   ]
+  },
+  {
+   "id": "C008",
+   "beat_id": "B03",
+   "start": 26.42,
+   "end": 29.8,
+   "narration": "and left the word lead out of its reports and advertising.",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a General Motors reports and advertising office, 1923",
+    "world_id": "W04",
+    "world": "Open-plan office 20 m long with rows of dark wooden typing desks, black typewriters, wire in-trays heaped with carbon-copy reports, a long wall pinned with proof posters, frosted-glass partition doors, ceiling fans turning, brass spittoons, a draughtsman's slanted table at the end holding a poster layout",
+    "time_of_day": "bright midday, even white light from tall windows",
+    "weather": "clear, warm; papers lifting in the fan breeze"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a GM clerk",
+     "does": "scratches a thick black line through the word lead on a typed report",
+     "narrates": "left the word lead out"
+    },
+    {
+     "at": 1.1,
+     "who": "a typist",
+     "does": "retypes a page, her fingers hammering the keys",
+     "narrates": "of its reports"
+    },
+    {
+     "at": 2.0,
+     "who": "an advertising artist",
+     "does": "inks the word ETHYL big on a poster and leaves the poster's small print blank",
+     "narrates": "and advertising"
+    },
+    {
+     "at": 2.8,
+     "who": "a GM executive",
+     "does": "nods, signs the page and slides it into a folder",
+     "narrates": "and left"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the clerk's pen striking out the word lead"
+    },
+    {
+     "at": 2.0,
+     "move": "pan_left",
+     "to": "across the typists to the poster on the draughtsman's table"
+    }
+   ],
+   "literal": "In a clacking 1923 office a clerk draws a thick black line through the word lead on a typed report while a typist retypes the page and an artist inks ETHYL big on a poster; the camera pushes in on the pen, then pans across the typists to the poster.",
+   "camera_move": "push_in",
+   "characters": [
+    "GM clerk",
+    "advertising artist",
+    "GM executive"
+   ],
+   "background": "GM advertising and reports office, 1923",
+   "props": [
+    "typed report",
+    "ETHYL poster"
+   ],
+   "mood_target": "quiet, hidden",
+   "ambient_visual": "Papers ripple in the ceiling-fan breeze and a typewriter carriage clacks in the background",
+   "ambient_audio": "Typewriters clattering, a fan whirring, a pencil scraping",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "carry": {
+    "type": "glide",
+    "from": "the finished ETHYL poster",
+    "to": "a pump globe at the filling station",
+    "via": "the camera glides along the poster's painted road out through the office window onto a street pump",
+    "frames": 24
+   },
+   "new_assets": [
+    "GM clerk",
+    "advertising artist",
+    "GM executive",
+    "typed report",
+    "ETHYL poster",
+    "GM advertising and reports office, 1923"
+   ],
+   "loop_opened": [
+    "L4: what did the company hide behind the name ethyl?"
+   ]
+  },
+  {
+   "id": "C009",
+   "beat_id": "B03",
+   "start": 29.8,
+   "end": 32.92,
+   "narration": "It went on sale on the 1st of February 1923.",
+   "story_function": "setup",
+   "job": "show_event",
+   "scene_type": "environment",
+   "setting": {
+    "place": "a roadside filling station on a town street, 1923",
+    "world_id": "W05",
+    "world": "Small clapboard filling station with a tin canopy on two posts, two tall glass-topped hand-crank gasoline pumps with painted globes on top, an oil-can rack, a wooden bench, packed-dirt forecourt with tyre ruts, a Model T parked at the pump, hand-painted price board, telegraph poles and a general store across the road",
+    "time_of_day": "bright afternoon sun, hard shadows",
+    "weather": "clear, warm, dust rising behind passing cars"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a gas station attendant",
+     "does": "cranks the pump handle and fills a glass-topped cylinder with pale fuel",
+     "narrates": "It went on sale"
+    },
+    {
+     "at": 0.9,
+     "who": "a driver",
+     "does": "pulls up in a Model T and tips his hat to the attendant",
+     "narrates": "on the 1st"
+    },
+    {
+     "at": 1.8,
+     "who": "the attendant",
+     "does": "paints 1 FEB on a chalk price board",
+     "narrates": "of February 1923"
+    },
+    {
+     "at": 2.6,
+     "who": "a boy",
+     "does": "drags his dog past the pump and stares at the glowing glass globe",
+     "narrates": "1923"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "track",
+     "to": "beside the attendant cranking the pump"
+    },
+    {
+     "at": 1.8,
+     "move": "tilt_up",
+     "to": "from the chalk board to the glowing ETHYL pump globe"
+    }
+   ],
+   "literal": "On a bright 1923 street the attendant cranks a hand pump and a driver tips his hat from a Model T while the chalk price board reads 1 FEB; the camera tracks beside the cranking arm then tilts up to the glowing ETHYL globe above the pump.",
+   "camera_move": "track",
+   "characters": [
+    "gas station attendant",
+    "driver"
+   ],
+   "background": "Roadside filling station, 1923",
+   "props": [
+    "glass-topped gasoline pump"
+   ],
+   "mood_target": "bright, ordinary",
+   "ambient_visual": "Dust lifts behind a passing Model T and a canopy flag snaps in the breeze",
+   "ambient_audio": "Hand-crank pump clicking, a bell, a car horn",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "1 February 1923",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "glide",
+    "from": "the glowing ETHYL pump globe",
+    "to": "a worker's twitching hand in the lead hall",
+    "via": "the camera tilts down the glass globe into the pump's fuel hose and slides along it to the plant",
+    "frames": 22
+   },
+   "new_assets": [
+    "gas station attendant",
+    "driver",
+    "glass-topped gasoline pump",
+    "Roadside filling station, 1923"
+   ]
+  },
+  {
+   "id": "C010",
+   "beat_id": "B04",
+   "start": 32.92,
+   "end": 36.44,
+   "narration": "The people who made it paid first. Midgley himself got lead poisoning",
+   "story_function": "escalation",
+   "job": "show_stakes",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "the tetraethyl lead production room of an American ethyl plant, 1925",
+    "world_id": "W01",
+    "world": "Long brick-walled production hall, 30 m by 12 m, with riveted iron mixing tanks on raised platforms, glass-fronted gauge boards, rubber-hosed lead-additive reactors, a chalk tally board by the door, pale green-tiled floor with drain channels, caged bulbs hanging from the rafters, rows of grey canvas overalls on wall pegs, narrow barred windows high up",
+    "time_of_day": "late afternoon, low amber light through the high windows and yellow caged bulbs",
+    "weather": "dry and stuffy, no wind; faint chemical haze hanging under the rafters"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "lead-plant workers",
+     "does": "stumble in line toward the wash basin, hands shaking",
+     "narrates": "The people who made it paid first"
+    },
+    {
+     "at": 1.2,
+     "who": "a worker",
+     "does": "doubles over a basin and splashes his face, gasping",
+     "narrates": "paid first"
+    },
+    {
+     "at": 2.3,
+     "who": "Thomas Midgley",
+     "does": "leans in the doorway with one hand on the frame, fumbling for his hat",
+     "narrates": "Midgley himself"
+    },
+    {
+     "at": 3.0,
+     "who": "Midgley",
+     "does": "sinks onto a bench holding his temples",
+     "narrates": "got lead poisoning"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "track",
+     "to": "along the line of shaking workers"
+    },
+    {
+     "at": 2.0,
+     "move": "push_in",
+     "to": "to Midgley slumping against the doorway"
+    }
+   ],
+   "literal": "In the production hall workers stumble toward the wash basins with shaking hands while one doubles over and splashes his face; the camera tracks the line, then pushes in on Thomas Midgley leaning in the doorway before he sinks onto a bench holding his temples.",
+   "camera_move": "track",
+   "characters": [
+    "lead-plant workers",
+    "Thomas Midgley"
+   ],
+   "background": "Tetraethyl lead production room, 1925",
+   "mood_target": "heavy, coughing",
+   "ambient_visual": "A fine haze shifts under the rafters and a worker's shadow wobbles across the tile",
+   "ambient_audio": "Wet coughing, a clanging bucket, boots dragging",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "carry": {
+    "type": "follow_object",
+    "from": "Midgley's trembling hand on the bench",
+    "to": "a sunlit beach chair",
+    "via": "the hand slips down to the bench slat, the camera drops to the floor and a wave of sand slides up to a deck chair",
+    "frames": 24
+   },
+   "reused_assets": [
+    "lead-plant workers",
+    "Thomas Midgley",
+    "Tetraethyl lead production room, 1925"
+   ]
+  },
+  {
+   "id": "C011",
+   "beat_id": "B04",
+   "start": 36.44,
+   "end": 39.82,
+   "narration": "and took a long vacation in Miami to recover. One account says",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "environment",
+   "setting": {
+    "place": "a Miami beachfront hotel lawn and sand, 1920s",
+    "world_id": "W06",
+    "world": "White-sand beach 80 m wide in front of a pale stucco hotel with striped awnings, rows of canvas deck chairs facing the water, tall coconut palms leaning toward the sea, a wooden boardwalk, bright turquoise shallows with small waves, bathers in wool swimsuits, a white pier on the horizon",
+    "time_of_day": "late morning, high clear sun",
+    "weather": "hot, gentle sea breeze, a few cumulus clouds"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Thomas Midgley",
+     "does": "reclines in a canvas deck chair, hat tipped back, a drink in his hand",
+     "narrates": "took a long vacation in Miami"
+    },
+    {
+     "at": 1.0,
+     "who": "a hotel waiter",
+     "does": "carries a tray of iced drinks along the boardwalk",
+     "narrates": "to recover"
+    },
+    {
+     "at": 2.0,
+     "who": "bathers",
+     "does": "paddle in the turquoise shallows and splash each other",
+     "narrates": "long vacation"
+    },
+    {
+     "at": 2.9,
+     "who": "Midgley",
+     "does": "flexes his shaky fingers and lets the arm drop",
+     "narrates": "to recover"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "crane_up",
+     "to": "over the rows of deck chairs to Midgley under a palm"
+    },
+    {
+     "at": 1.8,
+     "move": "push_in",
+     "to": "to Midgley's trembling hand around the glass"
+    }
+   ],
+   "literal": "On a Miami beach Midgley reclines in a deck chair with a drink while a waiter passes with iced glasses and bathers splash in the shallows; the camera cranes over the rows of chairs and pushes in on his shaking hand around the glass.",
+   "camera_move": "crane_up",
+   "characters": [
+    "hotel waiter"
+   ],
+   "background": "Miami beachfront, 1920s",
+   "props": [
+    "canvas deck chair"
+   ],
+   "mood_target": "slow, restorative",
+   "ambient_visual": "Palm fronds sway overhead and small waves slide up the sand",
+   "ambient_audio": "Surf hiss, gulls, a distant brass band",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "carry": {
+    "type": "glide",
+    "from": "Midgley's glass hand",
+    "to": "a letter on a rolltop desk",
+    "via": "the camera tilts up the palm trunk into the glare, then lands on a letter in sunlight on a laboratory desk",
+    "frames": 24
+   },
+   "new_assets": [
+    "hotel waiter",
+    "canvas deck chair",
+    "Miami beachfront, 1920s"
+   ]
+  },
+  {
+   "id": "C012",
+   "beat_id": "B04",
+   "start": 39.82,
+   "end": 43.22,
+   "narration": "he had been warned about the risks as early as 1922.",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a General Motors research laboratory in Dayton, Ohio, 1921",
+    "world_id": "W03",
+    "world": "Brick-walled laboratory 15 m wide with long oak benches, a single-cylinder test engine bolted to a cast-iron stand with a brass knock-gauge and exhaust pipe, shelves of amber glass bottles, a lead ingot on a scale, a rolltop desk by the window, gas jets, chalk equations on a slate board, green-shaded desk lamps",
+    "time_of_day": "mid-morning, strong white window light from the left",
+    "weather": "clear, cold; breath faintly visible near the window"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a laboratory colleague",
+     "does": "slaps a letter on Midgley's desk and taps the page hard",
+     "narrates": "he had been warned"
+    },
+    {
+     "at": 1.1,
+     "who": "Midgley",
+     "does": "reads it, then crumples the page in his fist",
+     "narrates": "about the risks"
+    },
+    {
+     "at": 2.2,
+     "who": "the colleague",
+     "does": "points sharply at a calendar reading 1922",
+     "narrates": "as early as 1922"
+    },
+    {
+     "at": 3.0,
+     "who": "Midgley",
+     "does": "shrugs and sweeps the letter into a drawer",
+     "narrates": "warned"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in on the letter slapped onto the desk"
+    },
+    {
+     "at": 1.8,
+     "move": "tilt_up",
+     "to": "from the crumpled paper to the calendar reading 1922"
+    }
+   ],
+   "literal": "In the 1921 laboratory a colleague slaps a letter on Midgley's desk and points at a calendar reading 1922 while Midgley reads, crumples the page and sweeps it into a drawer; the camera dollies in on the letter, then tilts up to the calendar.",
+   "camera_move": "dolly",
+   "characters": [
+    "laboratory colleague"
+   ],
+   "background": "General Motors research laboratory, 1921",
+   "props": [
+    "warning letter"
+   ],
+   "mood_target": "sober, accusing",
+   "ambient_visual": "Dust turns in the window beams and a loose page curls on the desk",
+   "ambient_audio": "A rolltop desk lid rattling, a sheet of paper unfolding",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "overlay_text": "1922",
+   "carry": {
+    "type": "fly_through",
+    "from": "the drawer Midgley slams",
+    "to": "the dim yard of the Dayton pilot plant",
+    "via": "the drawer slams and the camera plunges through its dark gap to emerge in a wet yard at dusk",
+    "frames": 24
+   },
+   "new_assets": [
+    "laboratory colleague",
+    "warning letter"
+   ],
+   "reused_assets": [
+    "General Motors research laboratory, 1921"
+   ],
+   "loop_opened": [
+    "L5: what happened at the plants?"
+   ],
+   "loop_closed": [
+    "L3",
+    "L4"
+   ]
+  },
+  {
+   "id": "C013",
+   "beat_id": "B05",
+   "start": 43.22,
+   "end": 47.68,
+   "narration": "In April 1924, two men died at the prototype plant in Dayton, Ohio.",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "the yard of the experimental tetraethyl lead plant in Dayton, Ohio, April 1924",
+    "world_id": "W07",
+    "world": "Small walled yard 25 m wide behind a two-storey brick pilot plant with a steel door, an ambulance-width gate, tar-papered sheds, steam pipes along the wall, a loading dock with wooden crates, spring mud and puddles on cinders, a bare maple, smokestack above the roof",
+    "time_of_day": "early evening, long cold light",
+    "weather": "damp, drizzle, low cloud"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "stretcher bearers",
+     "does": "carry a first covered stretcher across the wet yard, boots slapping the mud",
+     "narrates": "In April 1924"
+    },
+    {
+     "at": 1.4,
+     "who": "a second pair of bearers",
+     "does": "follow with another stretcher, heads bowed",
+     "narrates": "two men died"
+    },
+    {
+     "at": 2.6,
+     "who": "a plant manager",
+     "does": "stands at the steel door with his hat off, rain on his shoulders",
+     "narrates": "at the prototype plant"
+    },
+    {
+     "at": 3.5,
+     "who": "a woman at the gate",
+     "does": "clutches her shawl and steps forward, then freezes",
+     "narrates": "Dayton, Ohio"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "whip_pan",
+     "to": "to the first stretcher bearers crossing the yard"
+    },
+    {
+     "at": 1.5,
+     "move": "track",
+     "to": "alongside the two stretchers"
+    },
+    {
+     "at": 3.2,
+     "move": "push_in",
+     "to": "to the woman frozen at the gate"
+    }
+   ],
+   "literal": "Wet Dayton yard in April 1924: two covered stretchers are carried across the mud while the plant manager stands hat-off at the steel door and a woman at the gate steps forward and freezes; the camera whips onto the bearers, tracks the stretchers, then pushes in on the woman.",
+   "camera_move": "whip_pan",
+   "characters": [
+    "stretcher bearers",
+    "plant manager",
+    "woman at the gate"
+   ],
+   "background": "Dayton prototype plant yard, 1924",
+   "props": [
+    "covered stretchers"
+   ],
+   "mood_target": "cold, mournful",
+   "ambient_visual": "Drizzle falls through the lamp glow and steam leaks from a pipe on the wall",
+   "ambient_audio": "Rain on the cinders, a bell on an ambulance, shuffling boots",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "April 1924 · Dayton, Ohio",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "fly_through",
+    "from": "the steel plant door",
+    "to": "the dawn locker room",
+    "via": "the manager shuts the steel door on the camera and the view slips through the dark seam into a bright locker room",
+    "frames": 22
+   },
+   "new_assets": [
+    "stretcher bearers",
+    "plant manager",
+    "woman at the gate",
+    "covered stretchers",
+    "Dayton prototype plant yard, 1924"
+   ]
+  },
+  {
+   "id": "C014",
+   "beat_id": "B05",
+   "start": 47.68,
+   "end": 51.74,
+   "narration": "Over the following year, eight more died at DuPont's plant in Deepwater, New Jersey.",
+   "story_function": "escalation",
+   "job": "show_stakes",
+   "scene_type": "mechanism",
+   "setting": {
+    "place": "the workers' locker room at the DuPont plant in Deepwater, New Jersey, 1925",
+    "world_id": "W08",
+    "world": "Narrow whitewashed locker room 12 m long, rows of dented grey steel lockers, wooden benches bolted to the floor, a row of hooks along one wall each holding a cloth cap and a respirator, a coal stove in the corner, a time clock at the door, tin wash basins, a barred window facing the river",
+    "time_of_day": "dawn, thin blue-grey light with a yellow bulb overhead",
+    "weather": "cold, mist outside the window"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a locker-room foreman",
+     "does": "lifts a cloth cap off the first hook and slides it into a cardboard box",
+     "narrates": "Over the following year"
+    },
+    {
+     "at": 1.1,
+     "who": "the foreman",
+     "does": "lifts a second cap and a respirator and drops them in the box",
+     "narrates": "eight more died"
+    },
+    {
+     "at": 2.2,
+     "who": "a worker",
+     "does": "shuts a locker with a clang and wipes his eyes",
+     "narrates": "at DuPont's plant"
+    },
+    {
+     "at": 3.3,
+     "who": "the empty hooks",
+     "does": "swing slightly as the foreman closes the box lid",
+     "narrates": "Deepwater, New Jersey"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "track",
+     "to": "along the row of cap-bearing hooks"
+    },
+    {
+     "at": 2.0,
+     "move": "dolly",
+     "to": "in on the closing box lid"
+    },
+    {
+     "at": 3.4,
+     "move": "tilt_up",
+     "to": "to the barred window and the pale river"
+    }
+   ],
+   "literal": "At dawn in the Deepwater locker room a foreman lifts eight caps off their hooks one at a time and drops them into a cardboard box while a worker clangs a locker shut; the camera tracks the hooks, dollies in on the closing lid, then tilts up to the barred window.",
+   "camera_move": "track",
+   "characters": [
+    "locker-room foreman",
+    "worker"
+   ],
+   "background": "Deepwater plant locker room, 1925",
+   "props": [
+    "cloth caps on hooks",
+    "cardboard box"
+   ],
+   "mood_target": "sombre, counting",
+   "ambient_visual": "Cold breath mist and a bulb that buzzes on the ceiling",
+   "ambient_audio": "Steel lockers clanging shut, boots, a bulb buzz",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "overlay_text": "8 more · Deepwater, NJ",
+   "carry": {
+    "type": "glide",
+    "from": "the barred window and the river",
+    "to": "the Bayway yard tanks",
+    "via": "the window frame slides past and the camera glides over the river to a distant refinery in smoke",
+    "frames": 26
+   },
+   "new_assets": [
+    "locker-room foreman",
+    "worker",
+    "cloth caps on hooks",
+    "cardboard box",
+    "Deepwater plant locker room, 1925"
+   ]
+  },
+  {
+   "id": "C015",
+   "beat_id": "B06",
+   "start": 51.74,
+   "end": 55.24,
+   "narration": "That October, at a Standard Oil refinery in Bayway, New Jersey,",
+   "story_function": "escalation",
+   "job": "show_place",
+   "scene_type": "environment",
+   "setting": {
+    "place": "the yard of the Standard Oil refinery at Bayway, New Jersey, October 1924",
+    "world_id": "W09",
+    "world": "Sprawling industrial yard 100 m across with fat riveted storage tanks, a tetraethyl lead blending shed with a corrugated roof, pipe racks, railway sidings with tank cars, a tall chain-link gate with a wooden gatehouse, oil-stained cobbles, lamp posts, billowing stacks and a smoke-dark sky above",
+    "time_of_day": "late afternoon, low orange light fading to dusk",
+    "weather": "cool, hazy, smoke drifting sideways in a breeze"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a switchman",
+     "does": "waves a lantern as a tank car rolls along the siding",
+     "narrates": "That October"
+    },
+    {
+     "at": 1.1,
+     "who": "refinery workers",
+     "does": "stream out of the blending shed with towels over their shoulders",
+     "narrates": "at a Standard Oil refinery"
+    },
+    {
+     "at": 2.2,
+     "who": "a clerk",
+     "does": "stamps a gate pass and hands it through the booth window",
+     "narrates": "in Bayway"
+    },
+    {
+     "at": 3.0,
+     "who": "a stack flare",
+     "does": "gutters orange against the smoke",
+     "narrates": "New Jersey"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "crane_up",
+     "to": "from the tank car to the whole refinery yard"
+    },
+    {
+     "at": 2.0,
+     "move": "pan_right",
+     "to": "along the siding to the blending shed door"
+    }
+   ],
+   "literal": "Dusk over the Bayway refinery in October 1924: a switchman waves a lantern at a rolling tank car, workers stream out of the lead blending shed and a clerk stamps a gate pass; the camera cranes over the yard then pans along the siding to the shed.",
+   "camera_move": "crane_up",
+   "characters": [
+    "refinery workers",
+    "switchman"
+   ],
+   "background": "Bayway refinery yard, 1924",
+   "props": [
+    "tank cars",
+    "blending shed"
+   ],
+   "mood_target": "autumn, industrial",
+   "ambient_visual": "Smoke from the stacks bends sideways and leaves spin in the corner of the gate",
+   "ambient_audio": "Tank-car couplings clanking, distant pipe hum, wind",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "October 1924 · Bayway, NJ",
+   "carry": {
+    "type": "follow_object",
+    "from": "the lantern swinging at the shed door",
+    "to": "a worker staggering at the shed",
+    "via": "the lantern's arc crosses the cobbles and the camera follows its light to a stumbling man",
+    "frames": 22
+   },
+   "new_assets": [
+    "refinery workers",
+    "switchman",
+    "tank cars",
+    "blending shed",
+    "Bayway refinery yard, 1924"
+   ]
+  },
+  {
+   "id": "C016",
+   "beat_id": "B06",
+   "start": 55.24,
+   "end": 58.74,
+   "narration": "workers began to go violently insane. The first died on Saturday",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "the yard of the Standard Oil refinery at Bayway, New Jersey, October 1924",
+    "world_id": "W09",
+    "world": "Sprawling industrial yard 100 m across with fat riveted storage tanks, a tetraethyl lead blending shed with a corrugated roof, pipe racks, railway sidings with tank cars, a tall chain-link gate with a wooden gatehouse, oil-stained cobbles, lamp posts, billowing stacks and a smoke-dark sky above",
+    "time_of_day": "late afternoon, low orange light fading to dusk",
+    "weather": "cool, hazy, smoke drifting sideways in a breeze"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a worker",
+     "does": "bursts out of the blending shed swinging his arms and screaming at nothing",
+     "narrates": "workers began to go violently insane"
+    },
+    {
+     "at": 1.1,
+     "who": "two co-workers",
+     "does": "wrestle him onto the cobbles and pin his arms",
+     "narrates": "violently"
+    },
+    {
+     "at": 2.2,
+     "who": "a third man",
+     "does": "claws at the air and tears his shirt open in the yard",
+     "narrates": "to go violently"
+    },
+    {
+     "at": 3.2,
+     "who": "a foreman",
+     "does": "runs for the gate waving his cap",
+     "narrates": "The first died on Saturday"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "track",
+     "to": "alongside the shouting worker bursting from the shed"
+    },
+    {
+     "at": 1.8,
+     "move": "orbit",
+     "to": "around the pinned man on the cobbles"
+    },
+    {
+     "at": 3.0,
+     "move": "push_in",
+     "to": "to the foreman sprinting for the gate"
+    }
+   ],
+   "literal": "At dusk a worker bursts out of the blending shed swinging his arms and screaming at nothing; two co-workers wrestle him down while a third tears his shirt open and a foreman sprints for the gate; the camera tracks, orbits the pinned man, then pushes in on the foreman.",
+   "camera_move": "track",
+   "characters": [
+    "foreman"
+   ],
+   "background": "Bayway refinery yard, 1924",
+   "mood_target": "frantic, violent",
+   "ambient_visual": "Smoke streaks across the sodium-yellow lamp and loose papers scatter along the cobbles",
+   "ambient_audio": "Shouts, a clanging bucket, boots scrambling on stone",
+   "ambient_intensity": 3,
+   "complexity": 3,
+   "motif_id": "M1",
+   "motif_event": "continue",
+   "carry": {
+    "type": "follow_object",
+    "from": "the foreman's waving cap",
+    "to": "the hospital ward calendar",
+    "via": "the cap tumbles through the gate and the camera follows it into the white ward beyond",
+    "frames": 22
+   },
+   "new_assets": [
+    "foreman"
+   ],
+   "reused_assets": [
+    "Bayway refinery yard, 1924"
+   ],
+   "loop_opened": [
+    "L6: how many men would be lost?"
+   ],
+   "loop_closed": [
+    "L5"
+   ]
+  },
+  {
+   "id": "C017",
+   "beat_id": "B06",
+   "start": 58.74,
+   "end": 62.1,
+   "narration": "the 25th. Five men were in hospital within days.",
+   "story_function": "escalation",
+   "job": "show_stakes",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a general hospital ward in New Jersey, October 1924",
+    "world_id": "W10",
+    "world": "Long plain ward 20 m by 8 m with ten iron beds in two rows, white sheets, a nurses' desk at the far end, tall sash windows with drawn blinds, a wall clock, a wall calendar by the door, enamel basins on stands, polished linoleum and a hanging glass lamp",
+    "time_of_day": "night, a few shaded lamps and cold blue window light",
+    "weather": "clear and cold outside, frost on the window corners"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a nurse",
+     "does": "circles the date Saturday the 25th on the wall calendar with a red pencil",
+     "narrates": "the 25th"
+    },
+    {
+     "at": 1.1,
+     "who": "five patients",
+     "does": "toss in iron beds and tug at their restraints",
+     "narrates": "Five men were in hospital"
+    },
+    {
+     "at": 2.1,
+     "who": "a doctor",
+     "does": "checks the first man's pulse and shakes his head",
+     "narrates": "within days"
+    },
+    {
+     "at": 2.9,
+     "who": "the nurse",
+     "does": "draws a sheet over a still bed",
+     "narrates": "within days"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the calendar and the red-pencilled date"
+    },
+    {
+     "at": 1.8,
+     "move": "pan_left",
+     "to": "down the row of five restrained men"
+    }
+   ],
+   "literal": "In the night ward a nurse circles Saturday the 25th on the wall calendar while five men thrash against restraints in iron beds and a doctor shakes his head over the first; the camera pushes in on the red circle, then pans down the row of beds.",
+   "camera_move": "push_in",
+   "characters": [
+    "nurse",
+    "doctor",
+    "five patients"
+   ],
+   "background": "Hospital ward, 1924",
+   "props": [
+    "wall calendar"
+   ],
+   "mood_target": "grave, sterile",
+   "ambient_visual": "A wall clock ticks and a nurse's lamp throws wobbling shadows of the bed rails",
+   "ambient_audio": "Nurse shoes on linoleum, restless groans, the clock tick",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "Saturday 25th · 5 men in hospital",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "glide",
+    "from": "the row of iron beds",
+    "to": "a barrel in the refinery yard",
+    "via": "the camera glides down the line of bed-rail posts and out through the ward's double doors",
+    "frames": 24
+   },
+   "new_assets": [
+    "nurse",
+    "doctor",
+    "five patients",
+    "wall calendar",
+    "Hospital ward, 1924"
+   ]
+  },
+  {
+   "id": "C018",
+   "beat_id": "B06",
+   "start": 62.1,
+   "end": 66.3,
+   "narration": "The workers called the additive loony gas. Standard Oil halted sales.",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "object_closeup",
+   "setting": {
+    "place": "the yard of the Standard Oil refinery at Bayway, New Jersey, October 1924",
+    "world_id": "W09",
+    "world": "Sprawling industrial yard 100 m across with fat riveted storage tanks, a tetraethyl lead blending shed with a corrugated roof, pipe racks, railway sidings with tank cars, a tall chain-link gate with a wooden gatehouse, oil-stained cobbles, lamp posts, billowing stacks and a smoke-dark sky above",
+    "time_of_day": "late afternoon, low orange light fading to dusk",
+    "weather": "cool, hazy, smoke drifting sideways in a breeze"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a worker",
+     "does": "chalks the words LOONY GAS across the lid of a barrel",
+     "narrates": "The workers called the additive loony gas"
+    },
+    {
+     "at": 1.4,
+     "who": "two other workers",
+     "does": "laugh grimly and tap their temples",
+     "narrates": "loony gas"
+    },
+    {
+     "at": 2.6,
+     "who": "a Standard Oil manager",
+     "does": "bolts a heavy padlock onto the blending shed pump",
+     "narrates": "Standard Oil halted sales"
+    },
+    {
+     "at": 3.4,
+     "who": "the manager",
+     "does": "hangs a notice on the gate and steps back",
+     "narrates": "halted sales"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in on the chalk letters on the barrel"
+    },
+    {
+     "at": 1.8,
+     "move": "pan_right",
+     "to": "to the manager padlocking the pump"
+    },
+    {
+     "at": 3.4,
+     "move": "pull_back",
+     "to": "to the gate with its notice"
+    }
+   ],
+   "literal": "In the refinery yard a worker chalks LOONY GAS across a barrel lid while two others tap their temples; then a Standard Oil manager bolts a heavy padlock onto the pump and hangs a notice on the gate; the camera dollies in on the chalk letters, pans to the padlock, then pulls back.",
+   "camera_move": "dolly",
+   "characters": [
+    "Standard Oil manager"
+   ],
+   "background": "Bayway refinery yard, 1924",
+   "props": [
+    "barrel lid chalked LOONY GAS",
+    "padlock"
+   ],
+   "mood_target": "furtive, defiant",
+   "ambient_visual": "Soot flakes drift down through the lamplight over the barrels",
+   "ambient_audio": "Chalk squeaking, a padlock clicking, a pump handle clanking",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "overlay_text": "loony gas",
+   "carry": {
+    "type": "follow_object",
+    "from": "the manager's padlock key",
+    "to": "the State official at the gate",
+    "via": "the key swings from his hand and drops into the palm of a state official at the gate",
+    "frames": 20
+   },
+   "new_assets": [
+    "Standard Oil manager",
+    "barrel lid chalked LOONY GAS",
+    "padlock"
+   ],
+   "reused_assets": [
+    "Bayway refinery yard, 1924"
+   ],
+   "loop_opened": [
+    "L7: would the state step in?"
+   ],
+   "loop_closed": [
+    "L6"
+   ]
+  },
+  {
+   "id": "C019",
+   "beat_id": "B06",
+   "start": 66.3,
+   "end": 69.82,
+   "narration": "New Jersey ordered the plant shut. 44 Bayway men survived,",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "environment",
+   "setting": {
+    "place": "the yard of the Standard Oil refinery at Bayway, New Jersey, October 1924",
+    "world_id": "W09",
+    "world": "Sprawling industrial yard 100 m across with fat riveted storage tanks, a tetraethyl lead blending shed with a corrugated roof, pipe racks, railway sidings with tank cars, a tall chain-link gate with a wooden gatehouse, oil-stained cobbles, lamp posts, billowing stacks and a smoke-dark sky above",
+    "time_of_day": "late afternoon, low orange light fading to dusk",
+    "weather": "cool, hazy, smoke drifting sideways in a breeze"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a New Jersey official",
+     "does": "bangs a SHUT notice onto the gate with a hammer",
+     "narrates": "New Jersey ordered the plant shut"
+    },
+    {
+     "at": 1.2,
+     "who": "gate workers",
+     "does": "drag the heavy gates closed against each other",
+     "narrates": "plant shut"
+    },
+    {
+     "at": 2.3,
+     "who": "44 survivors",
+     "does": "stand in a staggered line along the fence, swaying and pale",
+     "narrates": "44 Bayway men survived"
+    },
+    {
+     "at": 3.0,
+     "who": "an official",
+     "does": "chalks 44 on a board and turns it to face the camera",
+     "narrates": "44"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the hammer driving the notice into the gate"
+    },
+    {
+     "at": 1.8,
+     "move": "pan_left",
+     "to": "along the staggered line of pale survivors"
+    }
+   ],
+   "literal": "A New Jersey official hammers a SHUT notice onto the refinery gate while gate workers drag the gates closed; the camera pushes in on the hammer, then pans along a line of forty-four pale, swaying survivors by the fence as the official chalks 44 on a board.",
+   "camera_move": "push_in",
+   "characters": [
+    "New Jersey official",
+    "44 Bayway survivors"
+   ],
+   "background": "Bayway refinery yard, 1924",
+   "props": [
+    "SHUT notice"
+   ],
+   "mood_target": "stern, official",
+   "ambient_visual": "Wind flaps a paper notice on the gate and a gate chain rattles",
+   "ambient_audio": "Chain rattling, a stamp thudding on paper, wind",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "44 survived",
+   "carry": {
+    "type": "glide",
+    "from": "the line of swaying survivors",
+    "to": "the kitchen window of a row house",
+    "via": "the camera slides past the last survivor and over the fence to a rooftop and a kitchen window",
+    "frames": 26
+   },
+   "new_assets": [
+    "New Jersey official",
+    "44 Bayway survivors",
+    "SHUT notice"
+   ],
+   "reused_assets": [
+    "Bayway refinery yard, 1924"
+   ]
+  },
+  {
+   "id": "C020",
+   "beat_id": "B06",
+   "start": 69.82,
+   "end": 73.3,
+   "narration": "possibly with lifelong brain damage. No follow -up was published.",
+   "story_function": "escalation",
+   "job": "hold_question",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a small kitchen in a rented Bayway row house, late 1920s",
+    "world_id": "W11",
+    "world": "Cramped kitchen 4 m by 3 m with a cast-iron range, a scrubbed wooden table with two chairs, enamel jug and tin cups, a pantry shelf, floral oilcloth, a single window over the sink onto a brick back yard, a folded daily newspaper by the bread box, a wall clock",
+    "time_of_day": "early morning, cold blue light with a warm kettle glow",
+    "weather": "grey drizzle against the window"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a Bayway survivor",
+     "does": "sits at the table staring at his own trembling hand",
+     "narrates": "possibly with lifelong brain damage"
+    },
+    {
+     "at": 1.2,
+     "who": "his wife",
+     "does": "sets a cup in front of him and he does not touch it",
+     "narrates": "lifelong"
+    },
+    {
+     "at": 2.2,
+     "who": "the wife",
+     "does": "unfolds the morning newspaper and flips page after page for a story",
+     "narrates": "No follow -up"
+    },
+    {
+     "at": 3.0,
+     "who": "she",
+     "does": "lays the empty newspaper down and presses her lips shut",
+     "narrates": "was published"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the survivor's trembling hand over the cup"
+    },
+    {
+     "at": 2.0,
+     "move": "dolly",
+     "to": "across to the wife turning the newspaper pages"
+    }
+   ],
+   "literal": "In a small row-house kitchen a survivor stares at his own trembling hand while his wife sets down a cup and then flips through the morning newspaper page after page finding nothing; the camera pushes in on the hand, then dollies across to the turning pages.",
+   "camera_move": "push_in",
+   "characters": [
+    "Bayway survivor",
+    "his wife"
+   ],
+   "background": "Bayway survivor's kitchen, late 1920s",
+   "props": [
+    "folded newspaper"
+   ],
+   "mood_target": "hollow, unanswered",
+   "ambient_visual": "Steam from the kettle drifts across the window and a clock ticks slowly",
+   "ambient_audio": "Kettle simmer, newspaper pages turning, a chair scraping",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "carry": {
+    "type": "fly_through",
+    "from": "the newspaper's blank column",
+    "to": "the doors of the press room",
+    "via": "the camera enters the empty newspaper column and emerges through wooden double doors into a crowded room",
+    "frames": 24
+   },
+   "new_assets": [
+    "Bayway survivor",
+    "his wife",
+    "folded newspaper",
+    "Bayway survivor's kitchen, late 1920s"
+   ],
+   "loop_opened": [
+    "L8: how would Standard Oil answer the press?"
+   ],
+   "loop_closed": [
+    "L7"
+   ]
+  },
+  {
+   "id": "C021",
+   "beat_id": "B07",
+   "start": 73.3,
+   "end": 76.96,
+   "narration": "On the 30th of October, Midgley stood in front of reporters at Standard Oil's",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a press room in Standard Oil's offices at 26 Broadway, New York, October 1924",
+    "world_id": "W12",
+    "world": "Panelled mahogany boardroom 15 m long with a long polished table at one end, tall arched windows onto lower Manhattan rooftops, brass desk lamps, a marble fireplace, rows of folding chairs for newspapermen, pencils and notebooks, a side table with a small glass bottle and a cloth, a coat rack, a wall map of oil fields",
+    "time_of_day": "morning, hard white light with long shadows from the windows",
+    "weather": "overcast city, faint haze"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "reporters",
+     "does": "crowd into folding chairs, notebooks open and pencils raised",
+     "narrates": "in front of reporters"
+    },
+    {
+     "at": 1.1,
+     "who": "Thomas Midgley",
+     "does": "steps up beside the long table in a grey suit and clears his throat",
+     "narrates": "Midgley stood"
+    },
+    {
+     "at": 2.2,
+     "who": "a Standard Oil press officer",
+     "does": "pulls the cloth off the side table to reveal a small glass bottle",
+     "narrates": "On the 30th of October"
+    },
+    {
+     "at": 3.0,
+     "who": "a photographer",
+     "does": "ducks forward and raises a flash tray",
+     "narrates": "Standard Oil's"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in over the heads of the reporters"
+    },
+    {
+     "at": 2.0,
+     "move": "push_in",
+     "to": "to Midgley beside the draped table"
+    }
+   ],
+   "literal": "In the mahogany press room Standard Oil's press officer pulls the cloth off a side table to show a small glass bottle while reporters fill folding chairs and Thomas Midgley steps up in a grey suit; the camera dollies in over the reporters, then pushes in on Midgley.",
+   "camera_move": "dolly",
+   "characters": [
+    "reporters",
+    "Standard Oil press officer",
+    "photographer"
+   ],
+   "background": "Standard Oil press room, 26 Broadway, 1924",
+   "props": [
+    "small glass bottle of ethyl fluid"
+   ],
+   "mood_target": "confident, staged",
+   "ambient_visual": "Dust floats in the window beams and a reporter's pencil taps a notebook",
+   "ambient_audio": "Chairs scraping, murmured questions, pencils scratching",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "30 October 1924",
+   "pattern_interrupt": true,
+   "hero": true,
+   "carry": {
+    "type": "glide",
+    "from": "the small glass bottle on the side table",
+    "to": "Midgley's raised hand",
+    "via": "the camera slides along the table to the bottle and Midgley's hand closes around it",
+    "frames": 20
+   },
+   "new_assets": [
+    "reporters",
+    "Standard Oil press officer",
+    "photographer",
+    "small glass bottle of ethyl fluid",
+    "Standard Oil press room, 26 Broadway, 1924"
+   ],
+   "loop_closed": [
+    "L8"
+   ]
+  },
+  {
+   "id": "C022",
+   "beat_id": "B07",
+   "start": 76.96,
+   "end": 80.52,
+   "narration": "offices at 26 Broadway. The Herald Tribune reported that he held a bottle",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a press room in Standard Oil's offices at 26 Broadway, New York, October 1924",
+    "world_id": "W12",
+    "world": "Panelled mahogany boardroom 15 m long with a long polished table at one end, tall arched windows onto lower Manhattan rooftops, brass desk lamps, a marble fireplace, rows of folding chairs for newspapermen, pencils and notebooks, a side table with a small glass bottle and a cloth, a coat rack, a wall map of oil fields",
+    "time_of_day": "morning, hard white light with long shadows from the windows",
+    "weather": "overcast city, faint haze"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a Herald Tribune reporter",
+     "does": "scribbles on his pad and holds up a press card",
+     "narrates": "The Herald Tribune reported"
+    },
+    {
+     "at": 1.0,
+     "who": "Midgley",
+     "does": "lifts the small glass bottle in his right hand",
+     "narrates": "he held a bottle"
+    },
+    {
+     "at": 2.0,
+     "who": "the reporters",
+     "does": "lean in and stare as the bottle rises to his face",
+     "narrates": "reported that he held"
+    },
+    {
+     "at": 2.9,
+     "who": "a wall sign",
+     "does": "reads 26 BROADWAY above the fireplace as a photographer's flash goes off",
+     "narrates": "26 Broadway"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "orbit",
+     "to": "around Midgley as he lifts the bottle"
+    },
+    {
+     "at": 1.9,
+     "move": "push_in",
+     "to": "to the bottle rising toward his face"
+    }
+   ],
+   "literal": "A Herald Tribune reporter scribbles on his pad as Midgley lifts the small bottle in his right hand under a sign reading 26 BROADWAY; the flash goes off while the camera orbits Midgley, then pushes in on the bottle rising toward his face.",
+   "camera_move": "orbit",
+   "characters": [
+    "Herald Tribune reporter"
+   ],
+   "background": "Standard Oil press room, 26 Broadway, 1924",
+   "props": [
+    "wall sign 26 BROADWAY"
+   ],
+   "mood_target": "staged, tight",
+   "ambient_visual": "Flash powder smoke curls up from the photographer's tray and a lamp pulses",
+   "ambient_audio": "Flashbulb pops, a notebook flipping, a watch ticking",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "overlay_text": "26 Broadway",
+   "carry": {
+    "type": "follow_object",
+    "from": "the bottle rising toward Midgley's nose",
+    "to": "the neck of the bottle under his nose",
+    "via": "the camera rides the bottle up the last few centimetres until it fills the frame",
+    "frames": 18
+   },
+   "new_assets": [
+    "Herald Tribune reporter",
+    "wall sign 26 BROADWAY"
+   ],
+   "reused_assets": [
+    "Standard Oil press room, 26 Broadway, 1924"
+   ]
+  },
+  {
+   "id": "C023",
+   "beat_id": "B07",
+   "start": 80.52,
+   "end": 84.02,
+   "narration": "of the liquid under his nose for more than a minute. He said brief exposure",
+   "story_function": "escalation",
+   "job": "hold_question",
+   "scene_type": "object_closeup",
+   "setting": {
+    "place": "a press room in Standard Oil's offices at 26 Broadway, New York, October 1924",
+    "world_id": "W12",
+    "world": "Panelled mahogany boardroom 15 m long with a long polished table at one end, tall arched windows onto lower Manhattan rooftops, brass desk lamps, a marble fireplace, rows of folding chairs for newspapermen, pencils and notebooks, a side table with a small glass bottle and a cloth, a coat rack, a wall map of oil fields",
+    "time_of_day": "morning, hard white light with long shadows from the windows",
+    "weather": "overcast city, faint haze"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Midgley",
+     "does": "holds the bottle under his nose and breathes slowly in",
+     "narrates": "under his nose"
+    },
+    {
+     "at": 1.1,
+     "who": "a reporter",
+     "does": "checks his pocket watch and nods as the seconds pass",
+     "narrates": "for more than a minute"
+    },
+    {
+     "at": 2.2,
+     "who": "Midgley",
+     "does": "lowers the bottle, smiles and lifts a finger to speak",
+     "narrates": "He said brief exposure"
+    },
+    {
+     "at": 3.1,
+     "who": "the reporters",
+     "does": "scribble faster",
+     "narrates": "brief exposure"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to Midgley's nose over the bottle neck"
+    },
+    {
+     "at": 1.8,
+     "move": "pull_back",
+     "to": "to the silent row of watching reporters"
+    }
+   ],
+   "literal": "The camera holds tight on the bottle neck beneath Midgley's nose as a reporter checks his pocket watch and the seconds pass; Midgley lowers the bottle, smiles, lifts a finger to speak and the camera pulls back to the reporters scribbling faster.",
+   "camera_move": "push_in",
+   "background": "Standard Oil press room, 26 Broadway, 1924",
+   "mood_target": "held breath, steady",
+   "ambient_visual": "The tiny bottle's liquid ripples slightly and flash-smoke hangs near the lamp",
+   "ambient_audio": "A second hand ticking, shallow breathing, a lamp hum",
+   "ambient_intensity": 3,
+   "complexity": 3,
+   "carry": {
+    "type": "glide",
+    "from": "the reporters' scribbling hands",
+    "to": "a man in an overall at a plant gate",
+    "via": "the pencils scratch faster and the camera slides along the page to a name in the margin",
+    "frames": 22
+   },
+   "reused_assets": [
+    "Standard Oil press room, 26 Broadway, 1924"
+   ],
+   "loop_opened": [
+    "L9: was the 'careless' explanation true?"
+   ]
+  },
+  {
+   "id": "C024",
+   "beat_id": "B07",
+   "start": 84.02,
+   "end": 88.0,
+   "narration": "could not cause what had happened and that the man had been careless. A year earlier,",
+   "story_function": "escalation",
+   "job": "show_stakes",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a press room in Standard Oil's offices at 26 Broadway, New York, October 1924",
+    "world_id": "W12",
+    "world": "Panelled mahogany boardroom 15 m long with a long polished table at one end, tall arched windows onto lower Manhattan rooftops, brass desk lamps, a marble fireplace, rows of folding chairs for newspapermen, pencils and notebooks, a side table with a small glass bottle and a cloth, a coat rack, a wall map of oil fields",
+    "time_of_day": "morning, hard white light with long shadows from the windows",
+    "weather": "overcast city, faint haze"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Midgley",
+     "does": "spreads his palms and shakes his head slowly",
+     "narrates": "could not cause what had happened"
+    },
+    {
+     "at": 1.1,
+     "who": "Midgley",
+     "does": "points toward a photograph of a refinery worker pinned on the wall",
+     "narrates": "and that the man had been careless"
+    },
+    {
+     "at": 2.2,
+     "who": "a reporter",
+     "does": "frowns and crosses out a line in his notebook",
+     "narrates": "careless"
+    },
+    {
+     "at": 3.1,
+     "who": "the press officer",
+     "does": "turns a calendar page back by one year",
+     "narrates": "A year earlier"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "across to Midgley's spread palms"
+    },
+    {
+     "at": 1.9,
+     "move": "tilt_up",
+     "to": "from the notebook to the calendar the press officer turns back"
+    }
+   ],
+   "literal": "Midgley spreads his palms and says brief exposure could not have caused it while a reporter frowns and crosses out a line; the press officer turns a wall calendar back a year; the camera dollies across to the palms, then tilts up to the turning calendar page.",
+   "camera_move": "dolly",
+   "background": "Standard Oil press room, 26 Broadway, 1924",
+   "props": [
+    "wall calendar"
+   ],
+   "mood_target": "defensive, hollow",
+   "ambient_visual": "Flash-smoke thins out across the table and a pencil rolls off the edge",
+   "ambient_audio": "A chair scraping, a gavel-like rap of the table, a cough",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "carry": {
+    "type": "fly_through",
+    "from": "the turning calendar page",
+    "to": "the Miami deck chair a year earlier",
+    "via": "the calendar page flips and the camera passes through its blank back into bright sunlight on sand",
+    "frames": 24
+   },
+   "reused_assets": [
+    "wall calendar",
+    "Standard Oil press room, 26 Broadway, 1924"
+   ],
+   "loop_opened": [
+    "L10: what had happened a year earlier?"
+   ],
+   "loop_closed": [
+    "L9"
+   ]
+  },
+  {
+   "id": "C025",
+   "beat_id": "B07",
+   "start": 88.0,
+   "end": 91.62,
+   "narration": "he had needed a vacation in Miami to recover from the same poison.",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a Miami beachfront hotel lawn and sand, 1920s",
+    "world_id": "W06",
+    "world": "White-sand beach 80 m wide in front of a pale stucco hotel with striped awnings, rows of canvas deck chairs facing the water, tall coconut palms leaning toward the sea, a wooden boardwalk, bright turquoise shallows with small waves, bathers in wool swimsuits, a white pier on the horizon",
+    "time_of_day": "late morning, high clear sun",
+    "weather": "hot, gentle sea breeze, a few cumulus clouds"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Thomas Midgley",
+     "does": "slumps in the canvas deck chair, forehead damp, hat low",
+     "narrates": "he had needed a vacation"
+    },
+    {
+     "at": 1.0,
+     "who": "a hotel waiter",
+     "does": "sets a glass of water beside him and lingers anxiously",
+     "narrates": "in Miami"
+    },
+    {
+     "at": 2.0,
+     "who": "Midgley",
+     "does": "raises a shaking hand to his temple and lets it drop",
+     "narrates": "to recover"
+    },
+    {
+     "at": 2.9,
+     "who": "bathers",
+     "does": "splash in the turquoise shallows behind him",
+     "narrates": "the same poison"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "track",
+     "to": "along the deck chairs to Midgley"
+    },
+    {
+     "at": 2.0,
+     "move": "push_in",
+     "to": "to his shaking hand on his temple"
+    }
+   ],
+   "literal": "A year earlier Midgley slumps in the same Miami deck chair, forehead damp, as the waiter sets down a glass of water and lingers anxiously; the camera tracks along the deck chairs, then pushes in on his shaking hand pressed to his temple.",
+   "camera_move": "track",
+   "background": "Miami beachfront, 1920s",
+   "mood_target": "slow, hollow",
+   "ambient_visual": "Palm fronds sway and sea foam slides over the sand in the breeze",
+   "ambient_audio": "Surf hiss, a clinking glass, a distant brass band",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "carry": {
+    "type": "fly_through",
+    "from": "the pale stucco hotel doorway",
+    "to": "the Washington conference doors",
+    "via": "the camera enters the hotel's white doorway and out through grand oak doors into a hearing room",
+    "frames": 24
+   },
+   "reused_assets": [
+    "Miami beachfront, 1920s"
+   ],
+   "loop_opened": [
+    "L11: would any government act?"
+   ],
+   "loop_closed": [
+    "L10"
+   ]
+  },
+  {
+   "id": "C026",
+   "beat_id": "B08",
+   "start": 91.62,
+   "end": 95.62,
+   "narration": "The U .S. Surgeon General called a conference in May 1925. That year,",
+   "story_function": "setup",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a federal conference room in Washington D.C., May 1925 and January 1926",
+    "world_id": "W13",
+    "world": "High-ceilinged hearing room 18 m long with a horseshoe of dark oak tables, green-shaded lamps, a raised chairman's dais with a gavel and a flag, ranks of leather chairs, stacks of printed reports and brass inkwells, tall windows with white drapes, a wall clock, a marble bust in a niche",
+    "time_of_day": "mid-morning, clean white light through tall windows",
+    "weather": "clear, mild; light dust floating in window beams"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "the Surgeon General",
+     "does": "raps a gavel on the dais and stands to call the room to order",
+     "narrates": "The U .S. Surgeon General called a conference"
+    },
+    {
+     "at": 1.2,
+     "who": "delegates",
+     "does": "file in and take their leather chairs, setting down thick reports",
+     "narrates": "a conference"
+    },
+    {
+     "at": 2.3,
+     "who": "a clerk",
+     "does": "hangs a banner reading MAY 1925 on the wall",
+     "narrates": "in May 1925"
+    },
+    {
+     "at": 3.1,
+     "who": "a delegate",
+     "does": "stands and gestures toward a sheet of data",
+     "narrates": "That year"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "crane_up",
+     "to": "from the delegates' chairs to the Surgeon General at the dais"
+    },
+    {
+     "at": 2.0,
+     "move": "pan_right",
+     "to": "along the horseshoe to the banner"
+    }
+   ],
+   "literal": "In a high-ceilinged Washington hearing room the Surgeon General raps a gavel and calls the conference to order as delegates take their leather chairs and a clerk hangs a banner reading MAY 1925; the camera cranes up to the dais, then pans along the horseshoe of tables.",
+   "camera_move": "crane_up",
+   "characters": [
+    "the Surgeon General",
+    "conference delegates"
+   ],
+   "background": "Washington federal conference room",
+   "props": [
+    "banner MAY 1925"
+   ],
+   "mood_target": "formal, measured",
+   "ambient_visual": "Dust turns in the tall window beams and a drape stirs as a door opens",
+   "ambient_audio": "Gavel rap, shuffling papers, murmured voices",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "May 1925",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "glide",
+    "from": "the stacked printed reports",
+    "to": "Midgley's pen",
+    "via": "the camera slides down the report stack onto a hand writing at an oak desk",
+    "frames": 22
+   },
+   "new_assets": [
+    "the Surgeon General",
+    "conference delegates",
+    "banner MAY 1925",
+    "Washington federal conference room"
+   ]
+  },
+  {
+   "id": "C027",
+   "beat_id": "B08",
+   "start": 95.62,
+   "end": 99.56,
+   "narration": "Midgley wrote that one part of the additive in 1 ,300 of gasoline posed no health",
+   "story_function": "explanation",
+   "job": "show_mechanism",
+   "scene_type": "mechanism",
+   "setting": {
+    "place": "a General Motors research laboratory in Dayton, Ohio, 1921",
+    "world_id": "W03",
+    "world": "Brick-walled laboratory 15 m wide with long oak benches, a single-cylinder test engine bolted to a cast-iron stand with a brass knock-gauge and exhaust pipe, shelves of amber glass bottles, a lead ingot on a scale, a rolltop desk by the window, gas jets, chalk equations on a slate board, green-shaded desk lamps",
+    "time_of_day": "mid-morning, strong white window light from the left",
+    "weather": "clear, cold; breath faintly visible near the window"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Thomas Midgley",
+     "does": "writes at the rolltop desk in neat cursive and underlines a line",
+     "narrates": "Midgley wrote that"
+    },
+    {
+     "at": 1.2,
+     "who": "Midgley",
+     "does": "lets one drop fall from a dropper into a huge glass vat labelled 1300",
+     "narrates": "one part of the additive in 1 ,300"
+    },
+    {
+     "at": 2.4,
+     "who": "the vat",
+     "does": "ripples once and goes clear again, the drop vanishing in it",
+     "narrates": "of gasoline"
+    },
+    {
+     "at": 3.2,
+     "who": "Midgley",
+     "does": "stamps a sheet with the word SAFE and slides it across",
+     "narrates": "posed no health"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in over Midgley's shoulder to the paper"
+    },
+    {
+     "at": 1.6,
+     "move": "tilt_down",
+     "to": "to the dropper over the huge vat"
+    },
+    {
+     "at": 3.0,
+     "move": "pull_back",
+     "to": "wide on the stamped sheet"
+    }
+   ],
+   "literal": "At his desk Midgley writes his claim, then lets a single drop fall from a dropper into a huge glass vat labelled 1300 where it vanishes; he stamps a sheet SAFE; the camera dollies over his shoulder, tilts down to the vat, then pulls back wide.",
+   "camera_move": "dolly",
+   "background": "General Motors research laboratory, 1921",
+   "props": [
+    "huge glass vat labelled 1300"
+   ],
+   "mood_target": "reassuring, thin",
+   "ambient_visual": "Light glints off the glassware and a drop of fluid quivers at a dropper tip",
+   "ambient_audio": "Glass tapping, a dripping dropper, a pen scratching",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "1 part in 1,300",
+   "carry": {
+    "type": "follow_object",
+    "from": "the falling drop",
+    "to": "a mechanic's hands at the pump station",
+    "via": "the camera follows the last drop through the vat and out into a garage's oil-black basin",
+    "frames": 24
+   },
+   "new_assets": [
+    "huge glass vat labelled 1300"
+   ],
+   "reused_assets": [
+    "General Motors research laboratory, 1921"
+   ],
+   "loop_opened": [
+    "L12: what could 'very abnormally' mean?"
+   ]
+  },
+  {
+   "id": "C028",
+   "beat_id": "B08",
+   "start": 99.56,
+   "end": 103.4,
+   "narration": "hazard unless the gasoline was used very abnormally.",
+   "story_function": "explanation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a roadside filling station on a town street, 1923",
+    "world_id": "W05",
+    "world": "Small clapboard filling station with a tin canopy on two posts, two tall glass-topped hand-crank gasoline pumps with painted globes on top, an oil-can rack, a wooden bench, packed-dirt forecourt with tyre ruts, a Model T parked at the pump, hand-painted price board, telegraph poles and a general store across the road",
+    "time_of_day": "bright afternoon sun, hard shadows",
+    "weather": "clear, warm, dust rising behind passing cars"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a mechanic",
+     "does": "dunks a greasy engine part in a bucket of gasoline and scrubs it with bare hands",
+     "narrates": "hazard unless"
+    },
+    {
+     "at": 1.1,
+     "who": "the mechanic",
+     "does": "wipes his hands across his face and rubs his eyes",
+     "narrates": "the gasoline was used very abnormally"
+    },
+    {
+     "at": 2.2,
+     "who": "a boy",
+     "does": "stands by the pump holding a sparkler and sniffing the air",
+     "narrates": "was used"
+    },
+    {
+     "at": 3.0,
+     "who": "the attendant",
+     "does": "pushes a No Smoking sign upright beside the pump",
+     "narrates": "abnormally"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in on the bucket of gasoline and the mechanic's hands"
+    },
+    {
+     "at": 2.0,
+     "move": "pan_left",
+     "to": "to the attendant and the No Smoking sign"
+    }
+   ],
+   "literal": "At the 1923 filling station a mechanic scrubs an engine part in a bucket of gasoline with bare hands, rubs his face, and a boy sniffs the air beside the pump while the attendant pushes a No Smoking sign upright; the camera dollies in on the bucket, then pans to the sign.",
+   "camera_move": "dolly",
+   "characters": [
+    "mechanic"
+   ],
+   "background": "Roadside filling station, 1923",
+   "props": [
+    "bucket of gasoline",
+    "No Smoking sign"
+   ],
+   "mood_target": "ordinary, misleading",
+   "ambient_visual": "Dust lifts off the forecourt behind a passing truck and a canopy flag flaps",
+   "ambient_audio": "A pump crank clicking, a wrench clanking, a horn",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "carry": {
+    "type": "glide",
+    "from": "the standing No Smoking sign",
+    "to": "the committee room's brass inkwell",
+    "via": "the sign's shadow lengthens across the forecourt and the camera slides on to a brass inkwell in a federal office",
+    "frames": 24
+   },
+   "new_assets": [
+    "mechanic",
+    "bucket of gasoline",
+    "No Smoking sign"
+   ],
+   "reused_assets": [
+    "Roadside filling station, 1923"
+   ],
+   "loop_closed": [
+    "L12"
+   ]
+  },
+  {
+   "id": "C029",
+   "beat_id": "B08",
+   "start": 103.4,
+   "end": 107.02,
+   "narration": "In January 1926, the Public Health Service found no good reason to ban it.",
+   "story_function": "resolution",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a federal conference room in Washington D.C., May 1925 and January 1926",
+    "world_id": "W13",
+    "world": "High-ceilinged hearing room 18 m long with a horseshoe of dark oak tables, green-shaded lamps, a raised chairman's dais with a gavel and a flag, ranks of leather chairs, stacks of printed reports and brass inkwells, tall windows with white drapes, a wall clock, a marble bust in a niche",
+    "time_of_day": "mid-morning, clean white light through tall windows",
+    "weather": "clear, mild; light dust floating in window beams"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Public Health Service officials",
+     "does": "shake their heads in turn and close the thick file together",
+     "narrates": "the Public Health Service found no good reason"
+    },
+    {
+     "at": 1.1,
+     "who": "a senior official",
+     "does": "stamps NO BAN across the report cover",
+     "narrates": "to ban it"
+    },
+    {
+     "at": 2.2,
+     "who": "a clerk",
+     "does": "carries the report out through the door under his arm",
+     "narrates": "In January 1926"
+    },
+    {
+     "at": 3.0,
+     "who": "an official",
+     "does": "pins a calendar page reading JANUARY 1926 on the wall",
+     "narrates": "January 1926"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the stamp thudding on the report cover"
+    },
+    {
+     "at": 2.0,
+     "move": "tilt_up",
+     "to": "from the clerk's retreating back to the clock on the wall"
+    }
+   ],
+   "literal": "In the same federal room the Public Health Service officials shake their heads, close the thick file and stamp NO BAN across the cover while a clerk carries it out and an official pins a JANUARY 1926 calendar page; the camera pushes in on the stamp, then tilts up to the wall clock.",
+   "camera_move": "push_in",
+   "characters": [
+    "Public Health Service officials",
+    "report clerk"
+   ],
+   "background": "Washington federal conference room",
+   "props": [
+    "NO BAN stamp"
+   ],
+   "mood_target": "stiff, dismissive",
+   "ambient_visual": "Light shifts in the tall windows and a paper corner flutters in a draught",
+   "ambient_audio": "Pages turning, a stamp thudding, chairs shifting",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "January 1926",
+   "carry": {
+    "type": "follow_object",
+    "from": "the report carried by the clerk",
+    "to": "the refinery gate chain",
+    "via": "the camera follows the report through the door and along a corridor to a gate chain falling slack",
+    "frames": 22
+   },
+   "new_assets": [
+    "Public Health Service officials",
+    "report clerk",
+    "NO BAN stamp"
+   ],
+   "reused_assets": [
+    "Washington federal conference room"
+   ],
+   "loop_closed": [
+    "L11"
+   ]
+  },
+  {
+   "id": "C030",
+   "beat_id": "B08",
+   "start": 107.02,
+   "end": 111.18,
+   "narration": "Sales resumed. Counts of the dead differ.",
+   "story_function": "resolution",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "the yard of the Standard Oil refinery at Bayway, New Jersey, October 1924",
+    "world_id": "W09",
+    "world": "Sprawling industrial yard 100 m across with fat riveted storage tanks, a tetraethyl lead blending shed with a corrugated roof, pipe racks, railway sidings with tank cars, a tall chain-link gate with a wooden gatehouse, oil-stained cobbles, lamp posts, billowing stacks and a smoke-dark sky above",
+    "time_of_day": "late afternoon, low orange light fading to dusk",
+    "weather": "cool, hazy, smoke drifting sideways in a breeze"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a refinery foreman",
+     "does": "cuts the padlock chain off the gate and lets it fall",
+     "narrates": "Sales resumed"
+    },
+    {
+     "at": 1.0,
+     "who": "pump workers",
+     "does": "crank the lead-blending pump handles and send the fluid into tank cars",
+     "narrates": "resumed"
+    },
+    {
+     "at": 2.1,
+     "who": "two clerks",
+     "does": "hold up two ledgers with different numbers chalked on their covers",
+     "narrates": "Counts of the dead differ"
+    },
+    {
+     "at": 3.2,
+     "who": "the clerks",
+     "does": "glare at each other and shake their ledgers",
+     "narrates": "differ"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the cut padlock chain dropping to the cobbles"
+    },
+    {
+     "at": 1.8,
+     "move": "orbit",
+     "to": "around the two clerks and their mismatched ledgers"
+    }
+   ],
+   "literal": "At the refinery a foreman cuts the padlock chain off the gate and pump workers crank the blending pumps back on; two clerks hold up ledgers marked with different counts of the dead while the camera pushes in on the falling chain, then orbits the clerks.",
+   "camera_move": "push_in",
+   "characters": [
+    "pump workers",
+    "two clerks"
+   ],
+   "background": "Bayway refinery yard, 1924",
+   "props": [
+    "two ledgers"
+   ],
+   "mood_target": "bleak, relieved",
+   "ambient_visual": "Soot drifts down through the yard lights and a gate chain swings loose",
+   "ambient_audio": "A chain clanking, pumps clunking back to life, an argument in murmurs",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "Counts differ",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "glide",
+    "from": "the two mismatched ledgers",
+    "to": "the DuPont history book on the archive table",
+    "via": "the camera glides between the two ledgers and onto the spine of a bound company history",
+    "frames": 24
+   },
+   "new_assets": [
+    "pump workers",
+    "two clerks",
+    "two ledgers"
+   ],
+   "reused_assets": [
+    "Bayway refinery yard, 1924"
+   ],
+   "loop_opened": [
+    "L18: how many died?"
+   ]
+  },
+  {
+   "id": "C031",
+   "beat_id": "B09",
+   "start": 111.18,
+   "end": 114.28,
+   "narration": "DuPont's own history gave 16 plus one probable",
+   "story_function": "explanation",
+   "job": "show_event",
+   "scene_type": "object_closeup",
+   "setting": {
+    "place": "a records and archives room at the DuPont company",
+    "world_id": "W14",
+    "world": "Narrow archive room 10 m long lined floor to ceiling with grey steel shelves of cloth-bound company histories and ledgers, a ladder on a rail, a long reading table with a brass lamp, boxes of folders, a wall clock, a window with venetian blinds, tiled floor",
+    "time_of_day": "afternoon, thin slatted light",
+    "weather": "still air, dust floating in the light bars"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a DuPont records clerk",
+     "does": "slides a heavy company history off the shelf and drops it on the reading table",
+     "narrates": "DuPont's own history"
+    },
+    {
+     "at": 1.1,
+     "who": "the clerk",
+     "does": "flips pages and runs a finger down a table of figures",
+     "narrates": "gave 16 plus one probable"
+    },
+    {
+     "at": 2.1,
+     "who": "an archivist",
+     "does": "stamps a slip reading 16 + 1 and slides it into the page",
+     "narrates": "16 plus one"
+    },
+    {
+     "at": 2.8,
+     "who": "the clerk",
+     "does": "taps the slip and looks up",
+     "narrates": "probable"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in on the heavy book dropping onto the table"
+    },
+    {
+     "at": 1.8,
+     "move": "push_in",
+     "to": "to the finger tracing the figures and the 16 + 1 slip"
+    }
+   ],
+   "literal": "In the archive room a records clerk drops a heavy DuPont company history on the reading table, flips to a table of figures and slides a slip reading 16 + 1 into the page; the camera dollies in on the book, then pushes in on his tracing finger.",
+   "camera_move": "dolly",
+   "characters": [
+    "DuPont records clerk",
+    "archivist"
+   ],
+   "background": "Corporate records room",
+   "props": [
+    "company history book",
+    "slip reading 16 + 1"
+   ],
+   "mood_target": "reserved, factual",
+   "ambient_visual": "Dust turns in the slatted light and a ladder wheel squeaks on its rail",
+   "ambient_audio": "A heavy book thudding open, slatted blinds creaking",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "overlay_text": "16 + 1",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "glide",
+    "from": "the slip reading 16 + 1",
+    "to": "the single word on the page",
+    "via": "the camera slides along the line of type to the last word of the line",
+    "frames": 18
+   },
+   "new_assets": [
+    "DuPont records clerk",
+    "archivist",
+    "company history book",
+    "slip reading 16 + 1",
+    "Corporate records room"
+   ],
+   "loop_closed": [
+    "L18"
+   ]
+  },
+  {
+   "id": "C032",
+   "beat_id": "B09",
+   "start": 114.28,
+   "end": 117.34,
+   "narration": "suicide. Midgley's next invention was meant",
+   "story_function": "explanation",
+   "job": "hold_question",
+   "scene_type": "object_closeup",
+   "setting": {
+    "place": "a records and archives room at the DuPont company",
+    "world_id": "W14",
+    "world": "Narrow archive room 10 m long lined floor to ceiling with grey steel shelves of cloth-bound company histories and ledgers, a ladder on a rail, a long reading table with a brass lamp, boxes of folders, a wall clock, a window with venetian blinds, tiled floor",
+    "time_of_day": "afternoon, thin slatted light",
+    "weather": "still air, dust floating in the light bars"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "the clerk",
+     "does": "lowers his finger beside the word suicide and holds it there",
+     "narrates": "suicide"
+    },
+    {
+     "at": 1.4,
+     "who": "the clerk",
+     "does": "closes the heavy book slowly, both hands flat on the cover",
+     "narrates": "Midgley's next invention"
+    },
+    {
+     "at": 2.3,
+     "who": "an archivist",
+     "does": "slides the book back onto the shelf and pulls the ladder after it",
+     "narrates": "was meant"
+    },
+    {
+     "at": 2.8,
+     "who": "a lamp",
+     "does": "clicks off on the reading table",
+     "narrates": "meant"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the word under the clerk's finger"
+    },
+    {
+     "at": 2.0,
+     "move": "pull_back",
+     "to": "wide as the book closes and the lamp clicks off"
+    }
+   ],
+   "literal": "The camera pushes in on the word suicide under the clerk's still finger, then holds as he closes the heavy book with both hands flat on the cover and the archivist slides it back onto the shelf before the reading lamp clicks off.",
+   "camera_move": "push_in",
+   "background": "Corporate records room",
+   "mood_target": "quiet, final",
+   "ambient_visual": "A single page edge lifts and settles in the slatted light",
+   "ambient_audio": "A page settling, then a long quiet, a clock tick",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "carry": {
+    "type": "fly_through",
+    "from": "the dark gap on the shelf where the book sat",
+    "to": "a bright Frigidaire laboratory doorway",
+    "via": "the camera slips into the dark gap on the shelf and comes out into daylight in a bright laboratory",
+    "frames": 24
+   },
+   "reused_assets": [
+    "Corporate records room"
+   ],
+   "loop_opened": [
+    "L13: what was Midgley's next invention?"
+   ]
+  },
+  {
+   "id": "C033",
+   "beat_id": "B09",
+   "start": 117.34,
+   "end": 120.94,
+   "narration": "to be the safe one, and it followed the same pattern.",
+   "story_function": "setup",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a Frigidaire research laboratory in Dayton, Ohio, late 1920s",
+    "world_id": "W15",
+    "world": "Broad laboratory 25 m wide with glass-and-brass gas apparatus, a row of white porcelain-enamelled refrigerator cabinets with doors open, gas cylinders chained to the wall, a cooling coil display, a canary in a brass cage on a bench, a blackboard of reaction formulas, rubber tubing, a lit Bunsen burner and an exhaust hood",
+    "time_of_day": "midday, bright even fluorescent-like skylight",
+    "weather": "clear, cool; faint vapour near the cooling coils"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Thomas Midgley",
+     "does": "lifts a model refrigerator cabinet onto the bench and swings its door wide",
+     "narrates": "to be the safe one"
+    },
+    {
+     "at": 1.2,
+     "who": "Frigidaire engineers",
+     "does": "applaud and write the word SAFE on the blackboard",
+     "narrates": "the safe one"
+    },
+    {
+     "at": 2.4,
+     "who": "a thin vapour",
+     "does": "creeps out of the open cabinet and spreads across the bench",
+     "narrates": "followed the same pattern"
+    },
+    {
+     "at": 3.1,
+     "who": "a canary",
+     "does": "tilts on its perch and drops its head",
+     "narrates": "pattern"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the open refrigerator door and Midgley"
+    },
+    {
+     "at": 2.0,
+     "move": "dolly",
+     "to": "along the bench to the creeping vapour and the canary"
+    }
+   ],
+   "literal": "In the Frigidaire laboratory Midgley sets a model refrigerator on the bench and swings its door open while engineers chalk SAFE on the board; a thin vapour creeps out of the cabinet and a canary tilts and droops; the camera pushes in on the door, then dollies along the bench to the bird.",
+   "camera_move": "push_in",
+   "characters": [
+    "Frigidaire engineers",
+    "canary"
+   ],
+   "background": "Frigidaire research laboratory, late 1920s",
+   "props": [
+    "model refrigerator cabinet",
+    "SAFE blackboard"
+   ],
+   "mood_target": "bright, uneasy",
+   "ambient_visual": "A pale vapour drifts from a cooling coil and a canary shifts on its perch",
+   "ambient_audio": "A compressor hum, glass clinking, a canary chirp",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "carry": {
+    "type": "follow_object",
+    "from": "the creeping vapour",
+    "to": "the gleaming refrigerators on the factory row",
+    "via": "the vapour drifts across the bench and the camera floats with it to a row of white cabinets",
+    "frames": 24
+   },
+   "new_assets": [
+    "Frigidaire engineers",
+    "canary",
+    "model refrigerator cabinet",
+    "SAFE blackboard",
+    "Frigidaire research laboratory, late 1920s"
+   ],
+   "loop_opened": [
+    "L14: what was this new gas?"
+   ],
+   "loop_closed": [
+    "L13"
+   ]
+  },
+  {
+   "id": "C034",
+   "beat_id": "B10",
+   "start": 120.94,
+   "end": 124.2,
+   "narration": "In the late 1920s, Frigidaire, a GM division,",
+   "story_function": "setup",
+   "job": "show_place",
+   "scene_type": "environment",
+   "setting": {
+    "place": "a Frigidaire research laboratory in Dayton, Ohio, late 1920s",
+    "world_id": "W15",
+    "world": "Broad laboratory 25 m wide with glass-and-brass gas apparatus, a row of white porcelain-enamelled refrigerator cabinets with doors open, gas cylinders chained to the wall, a cooling coil display, a canary in a brass cage on a bench, a blackboard of reaction formulas, rubber tubing, a lit Bunsen burner and an exhaust hood",
+    "time_of_day": "midday, bright even fluorescent-like skylight",
+    "weather": "clear, cool; faint vapour near the cooling coils"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "assembly workers",
+     "does": "roll white refrigerator cabinets down the line on small dollies",
+     "narrates": "In the late 1920s"
+    },
+    {
+     "at": 1.0,
+     "who": "a foreman",
+     "does": "waves a clipboard and shouts instructions",
+     "narrates": "Frigidaire"
+    },
+    {
+     "at": 2.0,
+     "who": "a delivery boy",
+     "does": "stacks cartons marked GM FRIGIDAIRE onto a trolley",
+     "narrates": "a GM division"
+    },
+    {
+     "at": 2.8,
+     "who": "an inspector",
+     "does": "opens a cabinet door and checks inside with a lantern",
+     "narrates": "GM division"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "crane_up",
+     "to": "over the row of white cabinets"
+    },
+    {
+     "at": 2.0,
+     "move": "track",
+     "to": "alongside the carton trolley"
+    }
+   ],
+   "literal": "On the Frigidaire floor workers roll white refrigerator cabinets down the line while a foreman waves a clipboard and a boy stacks cartons stamped GM FRIGIDAIRE; the camera cranes over the row of cabinets, then tracks beside the trolley.",
+   "camera_move": "crane_up",
+   "characters": [
+    "assembly workers",
+    "foreman"
+   ],
+   "background": "Frigidaire research laboratory, late 1920s",
+   "props": [
+    "white refrigerator cabinets"
+   ],
+   "mood_target": "bright, busy",
+   "ambient_visual": "Steam puffs from the testing rigs and white cabinet doors swing and bang",
+   "ambient_audio": "Compressors thudding, cabinet doors slamming, a bell",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "late 1920s · Frigidaire (GM)",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "glide",
+    "from": "the open refrigerator door",
+    "to": "the two sealed jars on the bench",
+    "via": "the camera glides into the dark open door and out the other side onto a laboratory bench",
+    "frames": 22
+   },
+   "new_assets": [
+    "assembly workers",
+    "white refrigerator cabinets"
+   ],
+   "reused_assets": [
+    "foreman",
+    "Frigidaire research laboratory, late 1920s"
+   ]
+  },
+  {
+   "id": "C035",
+   "beat_id": "B10",
+   "start": 124.2,
+   "end": 127.86,
+   "narration": "wanted a refrigerant that was neither toxic nor flammable.",
+   "story_function": "explanation",
+   "job": "show_mechanism",
+   "scene_type": "mechanism",
+   "setting": {
+    "place": "a Frigidaire research laboratory in Dayton, Ohio, late 1920s",
+    "world_id": "W15",
+    "world": "Broad laboratory 25 m wide with glass-and-brass gas apparatus, a row of white porcelain-enamelled refrigerator cabinets with doors open, gas cylinders chained to the wall, a cooling coil display, a canary in a brass cage on a bench, a blackboard of reaction formulas, rubber tubing, a lit Bunsen burner and an exhaust hood",
+    "time_of_day": "midday, bright even fluorescent-like skylight",
+    "weather": "clear, cool; faint vapour near the cooling coils"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "an engineer",
+     "does": "holds a match to a flask of one gas and it flares up with a whoosh",
+     "narrates": "flammable"
+    },
+    {
+     "at": 1.2,
+     "who": "another engineer",
+     "does": "holds a bird cage over a jar of another gas and the canary topples off its perch",
+     "narrates": "neither toxic"
+    },
+    {
+     "at": 2.3,
+     "who": "the engineers",
+     "does": "shake their heads and sweep both jars off the bench",
+     "narrates": "wanted a refrigerant"
+    },
+    {
+     "at": 3.1,
+     "who": "Midgley",
+     "does": "taps the blackboard where two lines are crossed out",
+     "narrates": "nor flammable"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in on the match touching the flask"
+    },
+    {
+     "at": 1.8,
+     "move": "pan_right",
+     "to": "to the canary cage over the second jar"
+    },
+    {
+     "at": 3.0,
+     "move": "tilt_up",
+     "to": "to the blackboard of crossed-out lines"
+    }
+   ],
+   "literal": "Two engineers test candidate refrigerants: one gas flares when a match touches the flask, another drops the canary off its perch; they sweep both jars aside and Midgley taps the board where two lines are crossed out; the camera dollies on the match, pans to the cage, then tilts up to the board.",
+   "camera_move": "dolly",
+   "background": "Frigidaire research laboratory, late 1920s",
+   "props": [
+    "candidate gas flasks",
+    "canary cage"
+   ],
+   "mood_target": "testing, exact",
+   "ambient_visual": "Faint vapour curls off the open flask and a Bunsen flame flickers",
+   "ambient_audio": "Gas hissing, a match scraping, a canary's alarm cry",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "carry": {
+    "type": "follow_object",
+    "from": "Midgley's chalk tapping",
+    "to": "a fresh clear flask",
+    "via": "the chalk dust falls and the camera drops with it to a new flask on the bench",
+    "frames": 20
+   },
+   "new_assets": [
+    "candidate gas flasks",
+    "canary cage"
+   ],
+   "reused_assets": [
+    "Frigidaire research laboratory, late 1920s"
+   ]
+  },
+  {
+   "id": "C036",
+   "beat_id": "B10",
+   "start": 127.86,
+   "end": 131.44,
+   "narration": "Midgley and a colleague, Albert Henney, made the first CFC,",
+   "story_function": "explanation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a Frigidaire research laboratory in Dayton, Ohio, late 1920s",
+    "world_id": "W15",
+    "world": "Broad laboratory 25 m wide with glass-and-brass gas apparatus, a row of white porcelain-enamelled refrigerator cabinets with doors open, gas cylinders chained to the wall, a cooling coil display, a canary in a brass cage on a bench, a blackboard of reaction formulas, rubber tubing, a lit Bunsen burner and an exhaust hood",
+    "time_of_day": "midday, bright even fluorescent-like skylight",
+    "weather": "clear, cool; faint vapour near the cooling coils"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Thomas Midgley",
+     "does": "pours a clear liquid through a glass funnel into a flask",
+     "narrates": "Midgley"
+    },
+    {
+     "at": 1.1,
+     "who": "Albert Henney",
+     "does": "tightens a brass valve on the apparatus and nods",
+     "narrates": "and a colleague, Albert Henney"
+    },
+    {
+     "at": 2.2,
+     "who": "both men",
+     "does": "peer into the flask as a white vapour swirls inside",
+     "narrates": "made the first CFC"
+    },
+    {
+     "at": 3.0,
+     "who": "Midgley",
+     "does": "holds the flask up to the light, turning it",
+     "narrates": "the first CFC"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "orbit",
+     "to": "around the two men at the apparatus"
+    },
+    {
+     "at": 2.0,
+     "move": "push_in",
+     "to": "to the flask held up to the light"
+    }
+   ],
+   "literal": "Midgley pours a clear liquid through a glass funnel while his colleague Albert Henney tightens a brass valve; the two lean into a flask where white vapour swirls; the camera orbits the apparatus, then pushes in on the flask Midgley holds up to the light.",
+   "camera_move": "orbit",
+   "characters": [
+    "Albert Henney"
+   ],
+   "background": "Frigidaire research laboratory, late 1920s",
+   "props": [
+    "glass apparatus and flask"
+   ],
+   "mood_target": "hopeful, intent",
+   "ambient_visual": "A clear gas swirls inside a glass bell jar and steam lifts off a cooling coil",
+   "ambient_audio": "Glass clinking, valves ticking, a quiet bubbling",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "overlay_text": "Albert Henney · first CFC",
+   "carry": {
+    "type": "follow_object",
+    "from": "the swirling vapour in the flask",
+    "to": "a chained steel cylinder",
+    "via": "the vapour pours out through a rubber tube and the camera follows it down into a steel gas cylinder",
+    "frames": 22
+   },
+   "new_assets": [
+    "Albert Henney",
+    "glass apparatus and flask"
+   ],
+   "reused_assets": [
+    "Frigidaire research laboratory, late 1920s"
+   ]
+  },
+  {
+   "id": "C037",
+   "beat_id": "B10",
+   "start": 131.44,
+   "end": 135.5,
+   "narration": "a chlorine and gas they named Freon. In 1930,",
+   "story_function": "explanation",
+   "job": "show_event",
+   "scene_type": "object_closeup",
+   "setting": {
+    "place": "a Frigidaire research laboratory in Dayton, Ohio, late 1920s",
+    "world_id": "W15",
+    "world": "Broad laboratory 25 m wide with glass-and-brass gas apparatus, a row of white porcelain-enamelled refrigerator cabinets with doors open, gas cylinders chained to the wall, a cooling coil display, a canary in a brass cage on a bench, a blackboard of reaction formulas, rubber tubing, a lit Bunsen burner and an exhaust hood",
+    "time_of_day": "midday, bright even fluorescent-like skylight",
+    "weather": "clear, cool; faint vapour near the cooling coils"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "an assistant",
+     "does": "chalks the word FREON across a chained steel cylinder",
+     "narrates": "a chlorine and gas they named Freon"
+    },
+    {
+     "at": 1.3,
+     "who": "Midgley",
+     "does": "opens the valve and a thin white plume spills out",
+     "narrates": "they named Freon"
+    },
+    {
+     "at": 2.4,
+     "who": "the engineers",
+     "does": "cheer and shake hands around the cylinder",
+     "narrates": "named Freon"
+    },
+    {
+     "at": 3.3,
+     "who": "a calendar page",
+     "does": "flips to 1930 on the lab wall",
+     "narrates": "In 1930"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the stencilled word FREON on the cylinder"
+    },
+    {
+     "at": 1.8,
+     "move": "pull_back",
+     "to": "to the engineers shaking hands"
+    },
+    {
+     "at": 3.1,
+     "move": "tilt_up",
+     "to": "to the flipping calendar page"
+    }
+   ],
+   "literal": "An assistant chalks FREON across a chained steel cylinder and Midgley opens the valve so a thin white plume spills out while engineers cheer and shake hands and a wall calendar flips to 1930; the camera pushes in on the lettering, pulls back, then tilts up to the calendar.",
+   "camera_move": "push_in",
+   "background": "Frigidaire research laboratory, late 1920s",
+   "props": [
+    "steel cylinder marked FREON"
+   ],
+   "mood_target": "proud, clinical",
+   "ambient_visual": "Vapour puffs out of the cylinder valve and curls in the light",
+   "ambient_audio": "A hissing valve, a clack of a stencil, a muttered cheer",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "Freon · 1930",
+   "carry": {
+    "type": "glide",
+    "from": "the flipping calendar page",
+    "to": "the lecture hall candle",
+    "via": "the calendar page folds away and the camera glides on into a candle flame on a bench",
+    "frames": 24
+   },
+   "new_assets": [
+    "steel cylinder marked FREON"
+   ],
+   "reused_assets": [
+    "Frigidaire research laboratory, late 1920s"
+   ],
+   "loop_opened": [
+    "L16: what does Freon do to the world?"
+   ],
+   "loop_closed": [
+    "L14"
+   ]
+  },
+  {
+   "id": "C038",
+   "beat_id": "B11",
+   "start": 135.5,
+   "end": 139.5,
+   "narration": "he inhaled it and blew out a candle to show it was harmless. He won the Perkin Medal",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a chemists' society lecture hall, 1930 and 1937",
+    "world_id": "W16",
+    "world": "Tiered wooden auditorium for 300 with a curved lecture bench at the front, a lectern with a brass lamp, a blackboard, rows of men in dark suits, a stage curtain in dark red, a velvet table for a medal case and a draped banner, a wall of gilt-framed portraits, polished floorboards, a candle on a saucer on the lecture bench",
+    "time_of_day": "evening, warm chandelier and stage light",
+    "weather": "indoors, still, a faint draught stirring the curtain"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Thomas Midgley",
+     "does": "bends over the lecture bench and draws a deep breath from a glass tube of Freon",
+     "narrates": "he inhaled it"
+    },
+    {
+     "at": 1.2,
+     "who": "Midgley",
+     "does": "straightens and blows a long breath that snuffs the candle",
+     "narrates": "blew out a candle"
+    },
+    {
+     "at": 2.3,
+     "who": "the audience",
+     "does": "gasps then breaks into applause",
+     "narrates": "to show it was harmless"
+    },
+    {
+     "at": 3.1,
+     "who": "a society presenter",
+     "does": "hangs a gold ribbon and medal around his neck",
+     "narrates": "He won the Perkin Medal"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to Midgley's face over the glass tube"
+    },
+    {
+     "at": 1.5,
+     "move": "tilt_down",
+     "to": "to the candle flame bending and going out"
+    },
+    {
+     "at": 3.0,
+     "move": "pan_right",
+     "to": "to the presenter lifting the medal ribbon"
+    }
+   ],
+   "literal": "At the lecture bench Midgley draws a deep breath from a glass tube of Freon then blows out a candle while the audience gasps and applauds; a presenter hangs a gold medal around his neck; the camera pushes in on his face, tilts down to the dying flame, then pans to the medal.",
+   "camera_move": "push_in",
+   "characters": [
+    "lecture audience",
+    "society presenter"
+   ],
+   "background": "Chemists' lecture hall, 1930 and 1937",
+   "props": [
+    "candle",
+    "glass tube",
+    "Perkin Medal"
+   ],
+   "mood_target": "showman, uneasy",
+   "ambient_visual": "Flame light dances on the lecture-bench wood and the stage curtain stirs",
+   "ambient_audio": "A hushed hall, a breath being drawn, polite applause",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "Perkin Medal",
+   "pattern_interrupt": true,
+   "hero": true,
+   "carry": {
+    "type": "glide",
+    "from": "the gold medal on its ribbon",
+    "to": "the Perkin Medal banner",
+    "via": "the medal swings on its ribbon and the camera glides up past it to a velvet banner",
+    "frames": 22
+   },
+   "new_assets": [
+    "lecture audience",
+    "society presenter",
+    "candle",
+    "glass tube",
+    "Perkin Medal",
+    "Chemists' lecture hall, 1930 and 1937"
+   ]
+  },
+  {
+   "id": "C039",
+   "beat_id": "B11",
+   "start": 139.5,
+   "end": 143.32,
+   "narration": "in 1937. In 1940, at 51,",
+   "story_function": "escalation",
+   "job": "show_time",
+   "scene_type": "environment",
+   "setting": {
+    "place": "a chemists' society lecture hall, 1930 and 1937",
+    "world_id": "W16",
+    "world": "Tiered wooden auditorium for 300 with a curved lecture bench at the front, a lectern with a brass lamp, a blackboard, rows of men in dark suits, a stage curtain in dark red, a velvet table for a medal case and a draped banner, a wall of gilt-framed portraits, polished floorboards, a candle on a saucer on the lecture bench",
+    "time_of_day": "evening, warm chandelier and stage light",
+    "weather": "indoors, still, a faint draught stirring the curtain"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a stagehand",
+     "does": "unrolls a banner reading 1937 above the stage",
+     "narrates": "in 1937"
+    },
+    {
+     "at": 1.1,
+     "who": "Midgley",
+     "does": "stands tall with the medal on his chest, shaking hands",
+     "narrates": "in 1937"
+    },
+    {
+     "at": 2.0,
+     "who": "another stagehand",
+     "does": "swaps the banner for one reading 1940",
+     "narrates": "In 1940"
+    },
+    {
+     "at": 2.8,
+     "who": "Midgley",
+     "does": "touches his chest and sets a hand on the lectern as if steadying himself",
+     "narrates": "at 51"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "crane_up",
+     "to": "from the medal on his chest to the 1937 banner"
+    },
+    {
+     "at": 2.0,
+     "move": "dolly",
+     "to": "in to Midgley steadying himself on the lectern"
+    }
+   ],
+   "literal": "Under the 1937 banner Midgley stands tall in the lecture hall shaking hands with the medal on his chest; a stagehand swaps the banner for 1940 and Midgley steadies himself on the lectern; the camera cranes up to the banner, then dollies in on Midgley.",
+   "camera_move": "crane_up",
+   "background": "Chemists' lecture hall, 1930 and 1937",
+   "props": [
+    "1937 banner",
+    "1940 banner"
+   ],
+   "mood_target": "proud, turning",
+   "ambient_visual": "Light from the chandelier ripples on the medal and a banner stirs",
+   "ambient_audio": "Applause thinning, a clock chime, a curtain rustling",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "1937 · 1940 · age 51",
+   "carry": {
+    "type": "fly_through",
+    "from": "Midgley's hand on the lectern",
+    "to": "the bedroom door",
+    "via": "the hand on the lectern fades into a hand on a bedroom door frame and the camera slips through",
+    "frames": 24
+   },
+   "new_assets": [
+    "1937 banner",
+    "1940 banner"
+   ],
+   "reused_assets": [
+    "Chemists' lecture hall, 1930 and 1937"
+   ]
+  },
+  {
+   "id": "C040",
+   "beat_id": "B11",
+   "start": 143.32,
+   "end": 146.54,
+   "narration": "he caught polio and was paralyzed from the legs down.",
+   "story_function": "escalation",
+   "job": "show_stakes",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "Thomas Midgley's second-floor bedroom in his Ohio home, 1940 to 1944",
+    "world_id": "W17",
+    "world": "Sunlit corner bedroom 5 m by 5 m with a high wooden bed, a homemade overhead rope-and-pulley hoist bolted to ceiling beams with a canvas sling, a wheelchair by the wall, a bedside table with pills and a water glass, striped wallpaper, a bay window onto bare trees, a hall door with a brass handle",
+    "time_of_day": "morning, pale winter light from the bay window",
+    "weather": "cold, clear, frost on the lower panes"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Midgley",
+     "does": "sits on the edge of the bed in pyjamas and tries to stand",
+     "narrates": "he caught polio"
+    },
+    {
+     "at": 1.0,
+     "who": "Midgley",
+     "does": "grips the bedpost and sinks back as his legs fold",
+     "narrates": "and was paralyzed"
+    },
+    {
+     "at": 2.0,
+     "who": "a nurse",
+     "does": "lifts his thin legs onto the mattress and tucks a blanket over them",
+     "narrates": "from the legs down"
+    },
+    {
+     "at": 2.8,
+     "who": "the nurse",
+     "does": "wheels the empty wheelchair against the wall",
+     "narrates": "legs down"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to Midgley's hands gripping the bedpost"
+    },
+    {
+     "at": 2.0,
+     "move": "pan_left",
+     "to": "to the empty wheelchair against the wall"
+    }
+   ],
+   "literal": "In a winter bedroom Midgley sits on the bed edge and tries to stand, grips the bedpost and sinks back as his legs fold; a nurse lifts his thin legs onto the mattress and wheels the empty chair against the wall; the camera pushes in on his gripping hands, then pans to the wheelchair.",
+   "camera_move": "push_in",
+   "characters": [
+    "nurse"
+   ],
+   "background": "Midgley's bedroom, 1940s",
+   "props": [
+    "wheelchair"
+   ],
+   "mood_target": "still, frail",
+   "ambient_visual": "Pale winter light slides across the bedspread and a curtain stirs",
+   "ambient_audio": "A clock ticking, a wheelchair wheel creaking, a gentle cough",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "carry": {
+    "type": "glide",
+    "from": "the empty wheelchair",
+    "to": "the rope and pulley hoist above the bed",
+    "via": "the camera tilts up past the wheelchair to the pulley hoist hanging over the bed",
+    "frames": 22
+   },
+   "new_assets": [
+    "wheelchair",
+    "Midgley's bedroom, 1940s"
+   ],
+   "reused_assets": [
+    "nurse"
+   ]
+  },
+  {
+   "id": "C041",
+   "beat_id": "B12",
+   "start": 146.54,
+   "end": 150.22,
+   "narration": "On the 2nd of November 1944, he was found dead,",
+   "story_function": "escalation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "Thomas Midgley's second-floor bedroom in his Ohio home, 1940 to 1944",
+    "world_id": "W17",
+    "world": "Sunlit corner bedroom 5 m by 5 m with a high wooden bed, a homemade overhead rope-and-pulley hoist bolted to ceiling beams with a canvas sling, a wheelchair by the wall, a bedside table with pills and a water glass, striped wallpaper, a bay window onto bare trees, a hall door with a brass handle",
+    "time_of_day": "morning, pale winter light from the bay window",
+    "weather": "cold, clear, frost on the lower panes"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a housekeeper",
+     "does": "knocks, opens the bedroom door and stops with a breakfast tray",
+     "narrates": "On the 2nd of November"
+    },
+    {
+     "at": 1.0,
+     "who": "the housekeeper",
+     "does": "drops the tray and it clatters across the floorboards",
+     "narrates": "1944"
+    },
+    {
+     "at": 2.0,
+     "who": "she",
+     "does": "presses both hands to her mouth and backs against the door frame",
+     "narrates": "he was found dead"
+    },
+    {
+     "at": 3.0,
+     "who": "a clock on the wall",
+     "does": "ticks on in the quiet room",
+     "narrates": "found dead"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in on the door opening onto the pale room"
+    },
+    {
+     "at": 2.0,
+     "move": "push_in",
+     "to": "to her face in the door frame as the room stays out of focus"
+    }
+   ],
+   "literal": "The housekeeper knocks, opens the bedroom door with a breakfast tray and stops; the tray clatters to the floor and she presses both hands to her mouth against the door frame; the camera dollies in on the opening door and holds on her face while the room beyond stays out of focus.",
+   "camera_move": "dolly",
+   "characters": [
+    "housekeeper"
+   ],
+   "background": "Midgley's bedroom, 1940s",
+   "props": [
+    "breakfast tray"
+   ],
+   "mood_target": "stunned, silent",
+   "ambient_visual": "Dust hangs in the pale light and a blind cord swings gently against the glass",
+   "ambient_audio": "A door handle turning, a dropped tray, an indrawn breath",
+   "ambient_intensity": 3,
+   "complexity": 2,
+   "overlay_text": "2 November 1944",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "glide",
+    "from": "the tray's silver lid rolling on the floor",
+    "to": "the rope hanging from the hoist",
+    "via": "the lid rolls along the floorboards and the camera follows its path up the bed leg to the rope above",
+    "frames": 22
+   },
+   "new_assets": [
+    "housekeeper",
+    "breakfast tray"
+   ],
+   "reused_assets": [
+    "Midgley's bedroom, 1940s"
+   ]
+  },
+  {
+   "id": "C042",
+   "beat_id": "B12",
+   "start": 150.22,
+   "end": 153.92,
+   "narration": "caught in the ropes and pulleys he had built to lift himself out of bed.",
+   "story_function": "escalation",
+   "job": "show_stakes",
+   "scene_type": "mechanism",
+   "setting": {
+    "place": "Thomas Midgley's second-floor bedroom in his Ohio home, 1940 to 1944",
+    "world_id": "W17",
+    "world": "Sunlit corner bedroom 5 m by 5 m with a high wooden bed, a homemade overhead rope-and-pulley hoist bolted to ceiling beams with a canvas sling, a wheelchair by the wall, a bedside table with pills and a water glass, striped wallpaper, a bay window onto bare trees, a hall door with a brass handle",
+    "time_of_day": "morning, pale winter light from the bay window",
+    "weather": "cold, clear, frost on the lower panes"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a pulley wheel",
+     "does": "ticks to a stop on its bracket above the bed",
+     "narrates": "caught in the ropes and pulleys"
+    },
+    {
+     "at": 1.2,
+     "who": "a rope",
+     "does": "hangs slack and sways in a loop from the ceiling beam",
+     "narrates": "the ropes and pulleys he had built"
+    },
+    {
+     "at": 2.3,
+     "who": "a canvas sling",
+     "does": "swings empty over the rumpled bed",
+     "narrates": "to lift himself"
+    },
+    {
+     "at": 3.2,
+     "who": "the bedside lamp",
+     "does": "clicks off",
+     "narrates": "out of bed"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "tilt_up",
+     "to": "along the rope to the pulley wheel at the beam"
+    },
+    {
+     "at": 1.8,
+     "move": "orbit",
+     "to": "slowly around the empty sling above the bed"
+    },
+    {
+     "at": 3.0,
+     "move": "pull_back",
+     "to": "to the whole room with its hoist and empty chair"
+    }
+   ],
+   "literal": "The camera tilts up the rope to the pulley wheel ticking to a stop on its beam bracket, then orbits slowly around the empty canvas sling swinging over the rumpled bed before pulling back to the whole room with its hoist, rope and empty chair.",
+   "camera_move": "tilt_up",
+   "background": "Midgley's bedroom, 1940s",
+   "props": [
+    "rope-and-pulley hoist",
+    "canvas sling"
+   ],
+   "mood_target": "still, factual",
+   "ambient_visual": "Dust turns in the light and a loose rope end sways",
+   "ambient_audio": "A rope creaking, a pulley wheel ticking, a clock tick",
+   "ambient_intensity": 3,
+   "complexity": 3,
+   "carry": {
+    "type": "fly_through",
+    "from": "the room window",
+    "to": "the coroner's desk",
+    "via": "the camera drifts out through the bay window into rain and in through another window to a desk lamp",
+    "frames": 24
+   },
+   "new_assets": [
+    "rope-and-pulley hoist",
+    "canvas sling"
+   ],
+   "reused_assets": [
+    "Midgley's bedroom, 1940s"
+   ]
+  },
+  {
+   "id": "C043",
+   "beat_id": "B12",
+   "start": 153.92,
+   "end": 157.85,
+   "narration": "A coroner ruled it a suicide. Many accounts call it an accident.",
+   "story_function": "resolution",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a county coroner's office, November 1944",
+    "world_id": "W18",
+    "world": "Spartan office 6 m by 5 m with an oak desk, a typewriter, a green-shaded lamp, wooden filing cabinets, a hat stand, a wall calendar showing November 1944, a rubber stamp and ink pad, a window with half-drawn blinds onto a brick street, a framed licence on the wall",
+    "time_of_day": "afternoon, dim grey light with a desk lamp",
+    "weather": "rain on the window"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a coroner",
+     "does": "stamps SUICIDE onto a form and blots it",
+     "narrates": "A coroner ruled it a suicide"
+    },
+    {
+     "at": 1.2,
+     "who": "the coroner",
+     "does": "slides the form into a manila folder and taps it",
+     "narrates": "ruled it"
+    },
+    {
+     "at": 2.2,
+     "who": "a newspaper boy",
+     "does": "hands in a newspaper where the headline reads ACCIDENT",
+     "narrates": "Many accounts call it an accident"
+    },
+    {
+     "at": 3.2,
+     "who": "the coroner",
+     "does": "looks from the stamped form to the headline and frowns",
+     "narrates": "an accident"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the stamp thudding down on the form"
+    },
+    {
+     "at": 2.0,
+     "move": "pan_right",
+     "to": "to the newspaper headline in the boy's hands"
+    }
+   ],
+   "literal": "In the rain-streaked coroner's office the coroner stamps SUICIDE onto a form and files it while a newspaper boy hands in a paper whose headline reads ACCIDENT; the coroner looks from the stamp to the headline and frowns; the camera pushes in on the stamp, then pans to the headline.",
+   "camera_move": "push_in",
+   "characters": [
+    "coroner",
+    "newspaper boy"
+   ],
+   "background": "Coroner's office, 1944",
+   "props": [
+    "SUICIDE form",
+    "ACCIDENT headline"
+   ],
+   "mood_target": "cold, bureaucratic",
+   "ambient_visual": "Rain streaks the window glass and a desk lamp flickers",
+   "ambient_audio": "Rain on glass, a typewriter ticking, a rubber stamp thudding",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "carry": {
+    "type": "glide",
+    "from": "the headline reading ACCIDENT",
+    "to": "the leaking refrigerator coil on the suburban street",
+    "via": "the camera slides off the headline past the window and out into dusk over a quiet street",
+    "frames": 24
+   },
+   "new_assets": [
+    "coroner",
+    "newspaper boy",
+    "SUICIDE form",
+    "ACCIDENT headline",
+    "Coroner's office, 1944"
+   ]
+  },
+  {
+   "id": "C044",
+   "beat_id": "B12",
+   "start": 157.85,
+   "end": 161.78,
+   "narration": "He died before it was widely known what Freon did to the sky.",
+   "story_function": "explanation",
+   "job": "show_mechanism",
+   "scene_type": "metaphor",
+   "setting": {
+    "place": "a 1940s American suburban street at dusk",
+    "world_id": "W19",
+    "world": "Quiet residential street 40 m long with identical clapboard houses with porches, a delivery truck at the kerb carrying a white refrigerator, glowing kitchen windows, maple trees, telephone poles, a streetlamp coming on, a wide open orange-purple sky above the rooftops",
+    "time_of_day": "dusk, deep orange sky fading to violet",
+    "weather": "clear, still, a few high thin clouds"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a newspaper on the porch rail",
+     "does": "lies open to a small obituary column and its page lifts in the evening breeze",
+     "narrates": "He died"
+    },
+    {
+     "at": 1.2,
+     "who": "a housewife",
+     "does": "opens the refrigerator and smiles at the humming light",
+     "narrates": "before it was widely known"
+    },
+    {
+     "at": 2.2,
+     "who": "a pale shimmer",
+     "does": "slips from the cooling coil, rises through the roof and climbs toward the sky",
+     "narrates": "what Freon did"
+    },
+    {
+     "at": 3.1,
+     "who": "a child",
+     "does": "points up at the rising shimmer from the porch step",
+     "narrates": "to the sky"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in on the refrigerator door and the housewife"
+    },
+    {
+     "at": 2.0,
+     "move": "crane_up",
+     "to": "following the shimmer up over the roof into the dusk sky"
+    },
+    {
+     "at": 3.4,
+     "move": "tilt_up",
+     "to": "to the broad empty sky"
+    }
+   ],
+   "literal": "On a 1940s suburban evening a delivery man sets a white refrigerator in a kitchen while a housewife smiles at its humming light; a pale shimmer slips from the cooling coil, climbs through the roof and rises into the sky as a child points up; the camera dollies in, cranes up with the shimmer, then tilts to the broad sky.",
+   "camera_move": "dolly",
+   "characters": [
+    "delivery man",
+    "housewife",
+    "child"
+   ],
+   "background": "1940s suburban street at dusk",
+   "props": [
+    "refrigerator"
+   ],
+   "mood_target": "quiet, widening",
+   "ambient_visual": "A faint shimmer rises from the refrigerator and drifts toward the darkening sky",
+   "ambient_audio": "Crickets, a distant radio, a refrigerator compressor hum",
+   "ambient_intensity": 1,
+   "complexity": 3,
+   "carry": {
+    "type": "follow_object",
+    "from": "the rising shimmer",
+    "to": "the ring of delegates in the treaty hall",
+    "via": "the shimmer climbs into the sky until the sky becomes a world map on a conference-hall wall",
+    "frames": 28
+   },
+   "new_assets": [
+    "delivery man",
+    "housewife",
+    "child",
+    "refrigerator",
+    "1940s suburban street at dusk"
+   ]
+  },
+  {
+   "id": "C045",
+   "beat_id": "B13",
+   "start": 161.78,
+   "end": 166.0,
+   "narration": "CFCs were restricted from 1987 because they destroy the ozone layer.",
+   "story_function": "resolution",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "an international treaty conference hall, 1987",
+    "world_id": "W20",
+    "world": "Modern semicircular conference hall 30 m across with tiered rows of desks with microphones and national flags, a long head table, a huge wall map of the world, glass interpreter booths, blue carpeting, a signing table with fountain pens and a thick bound document under a lamp",
+    "time_of_day": "afternoon, even white light from ceiling panels",
+    "weather": "indoors, still air"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "delegates",
+     "does": "rise from their desks and applaud as a gavel falls",
+     "narrates": "CFCs were restricted"
+    },
+    {
+     "at": 1.3,
+     "who": "a chairman",
+     "does": "slams a stamp reading CFC LIMIT onto the bound document",
+     "narrates": "from 1987"
+    },
+    {
+     "at": 2.4,
+     "who": "delegates",
+     "does": "line up to sign with fountain pens, one after another",
+     "narrates": "from 1987"
+    },
+    {
+     "at": 3.4,
+     "who": "a scientist",
+     "does": "points to a thinning hole drawn in the wall map's polar cap",
+     "narrates": "they destroy the ozone layer"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "crane_up",
+     "to": "from the signing table to the wall map"
+    },
+    {
+     "at": 1.8,
+     "move": "dolly",
+     "to": "along the row of signing delegates"
+    },
+    {
+     "at": 3.2,
+     "move": "push_in",
+     "to": "to the thinning ozone patch on the map"
+    }
+   ],
+   "literal": "Delegates rise and applaud as the chairman's gavel falls and he stamps CFC LIMIT onto a bound document; they line up to sign with fountain pens while a scientist points at a thinning hole drawn on the polar cap of the wall map; the camera cranes to the map, dollies along the signers, then pushes in on the patch.",
+   "camera_move": "crane_up",
+   "characters": [
+    "treaty delegates",
+    "chairman",
+    "scientist"
+   ],
+   "background": "1987 treaty hall",
+   "props": [
+    "CFC LIMIT stamp",
+    "wall map with ozone patch"
+   ],
+   "mood_target": "decisive, calm",
+   "ambient_visual": "Camera flashes pop softly and a flag fringe trembles in the air vent",
+   "ambient_audio": "Pens scratching, a gavel, applause",
+   "ambient_intensity": 1,
+   "complexity": 3,
+   "overlay_text": "CFCs restricted from 1987",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "glide",
+    "from": "the thinning patch on the wall map",
+    "to": "the historian's desk lamp",
+    "via": "the camera pushes into the hole on the map and out the other side onto a desk by a window",
+    "frames": 24
+   },
+   "new_assets": [
+    "treaty delegates",
+    "chairman",
+    "scientist",
+    "CFC LIMIT stamp",
+    "wall map with ozone patch",
+    "1987 treaty hall"
+   ],
+   "loop_opened": [
+    "L17: did leaded petrol ever end?"
+   ],
+   "loop_closed": [
+    "L16"
+   ]
+  },
+  {
+   "id": "C046",
+   "beat_id": "B13",
+   "start": 166.0,
+   "end": 169.78,
+   "narration": "A historian later wrote that Midgley had more adverse impact on the atmosphere",
+   "story_function": "explanation",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a historian's book-lined study",
+    "world_id": "W21",
+    "world": "Square study 5 m by 5 m with floor-to-ceiling shelves of history books, a cluttered oak desk with a green lamp, a stack of open volumes, a brass-stand globe, a leather armchair, a window with grey light, a wall clock, a half-full teacup",
+    "time_of_day": "late afternoon, warm lamp light against grey window light",
+    "weather": "overcast, soft drizzle outside"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a historian",
+     "does": "pens a line in a ledger beside a stack of open volumes",
+     "narrates": "A historian later wrote"
+    },
+    {
+     "at": 1.2,
+     "who": "the historian",
+     "does": "spins the brass globe slowly with one finger",
+     "narrates": "that Midgley had more"
+    },
+    {
+     "at": 2.2,
+     "who": "the historian",
+     "does": "underlines a line and taps it twice",
+     "narrates": "adverse impact"
+    },
+    {
+     "at": 3.1,
+     "who": "a teacup",
+     "does": "steams beside the globe as he leans in",
+     "narrates": "on the atmosphere"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in over his shoulder to the pen"
+    },
+    {
+     "at": 1.8,
+     "move": "orbit",
+     "to": "around the globe he spins on the desk"
+    }
+   ],
+   "literal": "In his book-lined study the historian pens a line, spins the brass globe with one finger and underlines the words twice while a teacup steams beside it; the camera dollies in over his shoulder, then orbits the spinning globe.",
+   "camera_move": "dolly",
+   "characters": [
+    "historian"
+   ],
+   "background": "Historian's study",
+   "props": [
+    "brass globe",
+    "ledger"
+   ],
+   "mood_target": "reflective, weighty",
+   "ambient_visual": "Drizzle runs down the window and a lamp flickers on the pages",
+   "ambient_audio": "Pages turning, a pen scratching, rain on the window",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "carry": {
+    "type": "follow_object",
+    "from": "the spinning brass globe",
+    "to": "a long museum hall",
+    "via": "the globe spins until its continents blur and the camera is carried into a vast hall of skeletons",
+    "frames": 26
+   },
+   "new_assets": [
+    "historian",
+    "brass globe",
+    "ledger",
+    "Historian's study"
+   ]
+  },
+  {
+   "id": "C047",
+   "beat_id": "B13",
+   "start": 169.78,
+   "end": 173.3,
+   "narration": "than any other single organism in Earth's history.",
+   "story_function": "reveal",
+   "job": "show_relationship",
+   "scene_type": "metaphor",
+   "setting": {
+    "place": "a natural history museum hall showing life through Earth's history",
+    "world_id": "W22",
+    "world": "Vast high-ceilinged museum hall 50 m long with glass cases and skeleton mounts in a long timeline: trilobites, a giant fern, a dinosaur skeleton, a mammoth, a whale skeleton hanging from the roof, with a large brass balance scale at the end with one empty pan, marble floor, tall arched windows",
+    "time_of_day": "midday, shafts of bright light from the high arched windows",
+    "weather": "indoors, still; dust drifting through the beams"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "the historian",
+     "does": "walks the timeline hall past the trilobite, fern and dinosaur cases",
+     "narrates": "than any other single organism"
+    },
+    {
+     "at": 1.2,
+     "who": "a museum guard",
+     "does": "watches him pass and tips his cap",
+     "narrates": "in Earth's history"
+    },
+    {
+     "at": 2.2,
+     "who": "a brass scale",
+     "does": "tips toward a tiny pocket-sized vial in one pan",
+     "narrates": "single organism"
+    },
+    {
+     "at": 3.0,
+     "who": "the skeletons",
+     "does": "tilt in their mounts and seem to lean toward the scale",
+     "narrates": "Earth's history"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "track",
+     "to": "beside the historian along the timeline hall"
+    },
+    {
+     "at": 2.0,
+     "move": "push_in",
+     "to": "to the tipping scale and the single vial"
+    }
+   ],
+   "literal": "The historian walks the long timeline hall past trilobite, fern and dinosaur cases while a museum guard tips his cap; at the end a brass scale tips toward a tiny vial in one pan as the skeletons seem to lean in; the camera tracks beside him, then pushes in on the tipping scale.",
+   "camera_move": "track",
+   "characters": [
+    "museum guard"
+   ],
+   "background": "Hall of life through Earth's history",
+   "props": [
+    "brass balance scale",
+    "small vial"
+   ],
+   "mood_target": "vast, weighing",
+   "ambient_visual": "Dust turns in the light shafts and a hanging whale skeleton sways very slightly",
+   "ambient_audio": "Echoing footsteps, a creaking brass beam, a distant door",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "carry": {
+    "type": "glide",
+    "from": "the tipping brass scale",
+    "to": "a 1970s pump nozzle",
+    "via": "the camera slides along the scale beam out of the hall into a petrol station's amber light",
+    "frames": 24
+   },
+   "new_assets": [
+    "museum guard",
+    "brass balance scale",
+    "small vial",
+    "Hall of life through Earth's history"
+   ]
+  },
+  {
+   "id": "C048",
+   "beat_id": "B14",
+   "start": 173.3,
+   "end": 176.92,
+   "narration": "Leaded petrol took longer. The phase -out began in the 1970s.",
+   "story_function": "setup",
+   "job": "show_time",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a 1970s roadside petrol station on a highway",
+    "world_id": "W23",
+    "world": "Brightly lit petrol station with a flat concrete canopy on slim pillars, four modern pumps with illuminated price signs, a small glass-fronted kiosk, a car wash bay, wide asphalt forecourt with painted lanes, a tall roadside sign, a woody station wagon at one pump, a sodium-lit highway beyond",
+    "time_of_day": "evening, orange sodium light and last daylight",
+    "weather": "clear, cool; a light breeze moving hanging flags"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a station attendant",
+     "does": "hangs a UNLEADED sign over a pump handle",
+     "narrates": "Leaded petrol took longer"
+    },
+    {
+     "at": 1.2,
+     "who": "a driver",
+     "does": "reads the sign, shrugs and swaps the nozzle on his station wagon",
+     "narrates": "took longer"
+    },
+    {
+     "at": 2.3,
+     "who": "the attendant",
+     "does": "pulls a leaded nozzle off a pump and drops it in a bin",
+     "narrates": "The phase -out began"
+    },
+    {
+     "at": 3.1,
+     "who": "a calendar",
+     "does": "flips to 1970 on the kiosk wall",
+     "narrates": "in the 1970s"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "track",
+     "to": "beside the attendant hanging the sign"
+    },
+    {
+     "at": 2.0,
+     "move": "tilt_up",
+     "to": "to the flipping 1970 calendar"
+    }
+   ],
+   "literal": "At a 1970s petrol station the attendant hangs an UNLEADED sign on a pump, a driver shrugs and swaps nozzles on his station wagon, and the attendant drops a leaded nozzle in a bin while the kiosk calendar flips to 1970; the camera tracks beside him, then tilts up to the calendar.",
+   "camera_move": "track",
+   "characters": [
+    "station attendant",
+    "driver"
+   ],
+   "background": "Petrol station, 1970s",
+   "props": [
+    "UNLEADED sign",
+    "pump nozzle"
+   ],
+   "mood_target": "gradual, unhurried",
+   "ambient_visual": "Moths circle the sodium lights and a pump flag flaps slowly",
+   "ambient_audio": "Pump click, a car radio, highway hum",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "1970s",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "glide",
+    "from": "the kiosk calendar",
+    "to": "the desert fuel depot's gauge board",
+    "via": "the calendar's pages fly off in sequence and the camera glides to a gauge board in the sun",
+    "frames": 28
+   },
+   "new_assets": [
+    "station attendant",
+    "UNLEADED sign",
+    "pump nozzle",
+    "Petrol station, 1970s"
+   ],
+   "reused_assets": [
+    "driver"
+   ]
+  },
+  {
+   "id": "C049",
+   "beat_id": "B14",
+   "start": 176.92,
+   "end": 180.48,
+   "narration": "In August 2021, the last stockpile, in Algeria,",
+   "story_function": "escalation",
+   "job": "show_place",
+   "scene_type": "environment",
+   "setting": {
+    "place": "a regional fuel depot in Algeria, August 2021",
+    "world_id": "W24",
+    "world": "Dusty fuel depot 70 m across with squat white storage tanks with painted numbers, a corrugated control hut with an open door, a pump house, steel pipe racks, concrete loading bay with a tanker truck, a gauge board on the hut wall, sand-coloured hills in the distance, a chain-link fence and a date palm",
+    "time_of_day": "midday, blazing high white sun",
+    "weather": "dry, very hot, heat shimmer above the concrete"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a depot clerk",
+     "does": "wipes his brow and checks a gauge board on the hut wall",
+     "narrates": "In August 2021"
+    },
+    {
+     "at": 1.1,
+     "who": "a tanker driver",
+     "does": "waits in the cab, tapping the wheel",
+     "narrates": "the last stockpile"
+    },
+    {
+     "at": 2.2,
+     "who": "a pump hand",
+     "does": "kicks open a valve and watches a thin trickle run",
+     "narrates": "in Algeria"
+    },
+    {
+     "at": 3.0,
+     "who": "the clerk",
+     "does": "knocks twice on the last tank's side and hears an empty echo",
+     "narrates": "the last stockpile"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "pull_back",
+     "to": "from the gauge board to the whole depot"
+    },
+    {
+     "at": 2.0,
+     "move": "push_in",
+     "to": "to the nearly empty tank"
+    }
+   ],
+   "literal": "Under a blazing August sun at an Algerian depot a clerk checks the gauge board, a tanker driver waits in the cab and a pump hand opens a valve to a thin trickle; the clerk knocks on the last tank and hears an echo; the camera pulls back over the depot, then pushes in on the tank.",
+   "camera_move": "pull_back",
+   "characters": [
+    "depot clerk",
+    "tanker driver",
+    "pump hand"
+   ],
+   "background": "Algerian fuel depot, 2021",
+   "props": [
+    "last tank",
+    "gauge board"
+   ],
+   "mood_target": "stark, running down",
+   "ambient_visual": "Heat shimmer wavers over the concrete and a loose tarp flaps on a tank",
+   "ambient_audio": "Wind over sand, a pump motor, a distant truck",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "August 2021 · Algeria",
+   "carry": {
+    "type": "follow_object",
+    "from": "the last drops from the valve",
+    "to": "the gauge needle touching empty",
+    "via": "the final trickle runs along the concrete and the camera follows it up to a gauge needle",
+    "frames": 20
+   },
+   "new_assets": [
+    "depot clerk",
+    "tanker driver",
+    "pump hand",
+    "last tank",
+    "gauge board",
+    "Algerian fuel depot, 2021"
+   ]
+  },
+  {
+   "id": "C050",
+   "beat_id": "B14",
+   "start": 180.48,
+   "end": 183.44,
+   "narration": "was used up. For the first time since 1923,",
+   "story_function": "reveal",
+   "job": "show_time",
+   "scene_type": "object_closeup",
+   "setting": {
+    "place": "a regional fuel depot in Algeria, August 2021",
+    "world_id": "W24",
+    "world": "Dusty fuel depot 70 m across with squat white storage tanks with painted numbers, a corrugated control hut with an open door, a pump house, steel pipe racks, concrete loading bay with a tanker truck, a gauge board on the hut wall, sand-coloured hills in the distance, a chain-link fence and a date palm",
+    "time_of_day": "midday, blazing high white sun",
+    "weather": "dry, very hot, heat shimmer above the concrete"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a gauge needle",
+     "does": "sinks to empty and stops",
+     "narrates": "was used up"
+    },
+    {
+     "at": 1.1,
+     "who": "the clerk",
+     "does": "taps the gauge glass with a fingernail and shakes his head",
+     "narrates": "was used up"
+    },
+    {
+     "at": 2.0,
+     "who": "a calendar page",
+     "does": "flips back through the decades to 1923 on the hut wall",
+     "narrates": "since 1923"
+    },
+    {
+     "at": 2.6,
+     "who": "the clerk",
+     "does": "chalks 0 on the board beside the gauge",
+     "narrates": "For the first time"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the gauge needle sinking to empty"
+    },
+    {
+     "at": 1.7,
+     "move": "tilt_up",
+     "to": "from the gauge to the calendar flipping back to 1923"
+    }
+   ],
+   "literal": "The camera pushes in on the gauge needle as it sinks to empty and stops; the clerk taps the glass, shakes his head and chalks 0 on the board while a wall calendar flips back through the decades to 1923 and the camera tilts up to it.",
+   "camera_move": "push_in",
+   "background": "Algerian fuel depot, 2021",
+   "props": [
+    "wall calendar"
+   ],
+   "mood_target": "final, quiet",
+   "ambient_visual": "Heat shimmer wavers over the tank and a fly crawls on the gauge glass",
+   "ambient_audio": "A tick of metal in the heat, a last drip, a long silence",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "overlay_text": "since 1923",
+   "pattern_interrupt": true,
+   "carry": {
+    "type": "glide",
+    "from": "the calendar page reading 1923",
+    "to": "the pump nozzle in a driver's hand",
+    "via": "the camera slides down from the calendar through the heat into a cool blue evening forecourt",
+    "frames": 24
+   },
+   "reused_assets": [
+    "wall calendar",
+    "Algerian fuel depot, 2021"
+   ]
+  },
+  {
+   "id": "C051",
+   "beat_id": "B14",
+   "start": 183.44,
+   "end": 187.28,
+   "narration": "no driver on Earth could legally buy it. That is about 98",
+   "story_function": "resolution",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "a modern roadside petrol station in the evening, 2021",
+    "world_id": "W25",
+    "world": "Large clean modern station with a white LED-lit canopy over eight pumps, digital price displays, a glass convenience store, an air-and-water bay, a tall illuminated price pylon with a slowly turning globe on top, grey asphalt with wet reflections, hatchbacks and SUVs at the pumps",
+    "time_of_day": "dusk, deep blue sky with the canopy lights fully on",
+    "weather": "cool, light rain just stopped, wet asphalt"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a driver",
+     "does": "pulls up to a pump, steps out and reads its single UNLEADED label",
+     "narrates": "no driver on Earth could legally buy it"
+    },
+    {
+     "at": 1.4,
+     "who": "the driver",
+     "does": "squeezes the nozzle and watches the numbers climb",
+     "narrates": "could legally buy it"
+    },
+    {
+     "at": 2.5,
+     "who": "a pylon sign",
+     "does": "flips its price digits to 98 beside the turning globe",
+     "narrates": "about 98"
+    },
+    {
+     "at": 3.2,
+     "who": "other drivers",
+     "does": "line up at pumps across the forecourt, all reading the same label",
+     "narrates": "That is about 98"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in on the driver reading the pump label"
+    },
+    {
+     "at": 1.8,
+     "move": "crane_up",
+     "to": "over the pumps to the turning globe"
+    },
+    {
+     "at": 3.2,
+     "move": "tilt_up",
+     "to": "to the digits flipping on the pylon sign"
+    }
+   ],
+   "literal": "At a modern station a driver reads the single UNLEADED label on his pump and squeezes the nozzle while other drivers line up at pumps showing the same label; a price pylon flips its digits to 98 beside a slowly turning globe; the camera dollies in, cranes over the pumps, then tilts up to the pylon.",
+   "camera_move": "dolly",
+   "characters": [
+    "driver",
+    "other drivers"
+   ],
+   "background": "Modern roadside petrol station, 2021",
+   "props": [
+    "price pylon with globe"
+   ],
+   "mood_target": "calm, global",
+   "ambient_visual": "Rain drips off the canopy edge and the price pylon's globe turns slowly",
+   "ambient_audio": "Pump click, tyres on wet asphalt, a soft jingle",
+   "ambient_intensity": 1,
+   "complexity": 2,
+   "overlay_text": "~98 years",
+   "carry": {
+    "type": "fly_through",
+    "from": "the pylon's flipping digits",
+    "to": "the Deepwater plant gate",
+    "via": "the camera passes through the number 98 as it flips and emerges through a rusting gate into 1950",
+    "frames": 26
+   },
+   "new_assets": [
+    "other drivers",
+    "price pylon with globe",
+    "Modern roadside petrol station, 2021"
+   ],
+   "reused_assets": [
+    "driver"
+   ],
+   "loop_closed": [
+    "L17"
+   ]
+  },
+  {
+   "id": "C052",
+   "beat_id": "B15",
+   "start": 187.28,
+   "end": 190.78,
+   "narration": "years. About 25 years after the deaths,",
+   "story_function": "rehook",
+   "job": "show_time",
+   "scene_type": "environment",
+   "setting": {
+    "place": "the yard outside the old tetraethyl lead building at Deepwater, New Jersey, around 1950",
+    "world_id": "W02",
+    "world": "Open gravel yard 60 m across with a tall weathered three-storey brick production building along one side, rusted fire escape, boarded lower windows, a cinder path to a small wooden gatehouse, stacked empty drums by the fence, bare poplar trees, a chain-link fence and the river flats beyond with a low tank farm on the horizon",
+    "time_of_day": "overcast late morning, flat grey-white light",
+    "weather": "cool and still, scattered dead leaves skittering on the gravel"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "a calendar page",
+     "does": "flips from 1925 to 1950 on the gatehouse wall",
+     "narrates": "years"
+    },
+    {
+     "at": 1.1,
+     "who": "a gatehouse guard",
+     "does": "unlocks the gate and swings it open for a visitor",
+     "narrates": "About 25 years"
+    },
+    {
+     "at": 2.1,
+     "who": "an old worker",
+     "does": "lifts his head from a drum seat and watches the gate",
+     "narrates": "after the deaths"
+    },
+    {
+     "at": 2.9,
+     "who": "a young apprentice",
+     "does": "hurries over with a barrow",
+     "narrates": "25 years"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "crane_up",
+     "to": "from the calendar to the weathered brick building"
+    },
+    {
+     "at": 2.0,
+     "move": "dolly",
+     "to": "toward the opening gate"
+    }
+   ],
+   "literal": "At the Deepwater gate a calendar flips from 1925 to 1950 as a guard unlocks the gate for a visitor while an old worker watches from his drum and an apprentice hurries over with a barrow; the camera cranes up the brick building, then dollies toward the opening gate.",
+   "camera_move": "crane_up",
+   "background": "Deepwater plant yard, around 1950",
+   "props": [
+    "gatehouse calendar"
+   ],
+   "mood_target": "return, quiet",
+   "ambient_visual": "Pale paper-white flecks drift across the gravel and a shutter taps against the brick",
+   "ambient_audio": "Gravel crunch, gate hinge creak, a distant whistle",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "overlay_text": "About 25 years after the deaths",
+   "pattern_interrupt": true,
+   "motif_id": "M1",
+   "motif_event": "continue",
+   "carry": {
+    "type": "follow_object",
+    "from": "the opening gate",
+    "to": "Needleman stepping through",
+    "via": "the gate swings wide and the camera follows it open onto a man in a coat with a black bag",
+    "frames": 22
+   },
+   "new_assets": [
+    "gatehouse calendar"
+   ],
+   "reused_assets": [
+    "Deepwater plant yard, around 1950"
+   ],
+   "loop_opened": [
+    "L19: what did a doctor find at the plant 25 years later?"
+   ]
+  },
+  {
+   "id": "C053",
+   "beat_id": "B15",
+   "start": 190.78,
+   "end": 194.08,
+   "narration": "a doctor named Herbert Needleman visited the deepwater plant.",
+   "story_function": "escalation",
+   "job": "introduce_character",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "the yard outside the old tetraethyl lead building at Deepwater, New Jersey, around 1950",
+    "world_id": "W02",
+    "world": "Open gravel yard 60 m across with a tall weathered three-storey brick production building along one side, rusted fire escape, boarded lower windows, a cinder path to a small wooden gatehouse, stacked empty drums by the fence, bare poplar trees, a chain-link fence and the river flats beyond with a low tank farm on the horizon",
+    "time_of_day": "overcast late morning, flat grey-white light",
+    "weather": "cool and still, scattered dead leaves skittering on the gravel"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Herbert Needleman",
+     "does": "steps through the gate in a long coat carrying a black doctor's bag",
+     "narrates": "a doctor named Herbert Needleman"
+    },
+    {
+     "at": 1.1,
+     "who": "the guard",
+     "does": "points him toward the production building with his chin",
+     "narrates": "visited the deepwater plant"
+    },
+    {
+     "at": 2.1,
+     "who": "Needleman",
+     "does": "stops, looks up at the brick building and tilts his hat back",
+     "narrates": "visited"
+    },
+    {
+     "at": 2.9,
+     "who": "an old worker",
+     "does": "taps a drum with his cane and nods toward the yard",
+     "narrates": "plant"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "track",
+     "to": "in front of Needleman as he walks through the gate"
+    },
+    {
+     "at": 2.0,
+     "move": "tilt_up",
+     "to": "to the brick building he studies"
+    }
+   ],
+   "literal": "A doctor named Herbert Needleman steps through the Deepwater gate in a long coat with a black bag while the guard points him toward the building; he stops, tilts his hat back and studies the brick face as an old worker taps a drum with his cane; the camera tracks ahead of him, then tilts up.",
+   "camera_move": "track",
+   "characters": [
+    "Herbert Needleman"
+   ],
+   "background": "Deepwater plant yard, around 1950",
+   "props": [
+    "doctor's black bag"
+   ],
+   "mood_target": "purposeful, probing",
+   "ambient_visual": "Dead leaves skitter across the gravel yard as he walks",
+   "ambient_audio": "Boot steps on gravel, a leather bag creaking, a gate clang",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "overlay_text": "Dr Herbert Needleman",
+   "carry": {
+    "type": "glide",
+    "from": "the smoking shack by the fence",
+    "to": "the shack's open door",
+    "via": "the camera glides along the fence to a small wooden shack with a stove pipe",
+    "frames": 22
+   },
+   "new_assets": [
+    "Herbert Needleman",
+    "doctor's black bag"
+   ],
+   "reused_assets": [
+    "Deepwater plant yard, around 1950"
+   ]
+  },
+  {
+   "id": "C054",
+   "beat_id": "B15",
+   "start": 194.08,
+   "end": 197.78,
+   "narration": "He asked about the older men sitting apart in the smoking shack,",
+   "story_function": "escalation",
+   "job": "show_stakes",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "the smoking shack beside the old Deepwater plant, around 1950",
+    "world_id": "W26",
+    "world": "Tiny wooden shack 6 m by 3 m with a sloped tin roof, three plank benches along the wall, a rusty oil-drum stove, a coffee can of cigarette ends, a single window facing the brick production building, a hook with caps, a worn plank floor, a hand-painted No Spitting sign, peeling green paint",
+    "time_of_day": "midday, dull light through one window",
+    "weather": "overcast, cold, smoke curling up from cigarettes"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "Needleman",
+     "does": "steps to the shack doorway and asks a worker, pointing across the yard",
+     "narrates": "He asked about the older men"
+    },
+    {
+     "at": 1.2,
+     "who": "three older men",
+     "does": "sit apart on plank benches, one at each end of the room",
+     "narrates": "sitting apart"
+    },
+    {
+     "at": 2.3,
+     "who": "an older man",
+     "does": "turns a spoon in his tin cup without drinking",
+     "narrates": "in the smoking shack"
+    },
+    {
+     "at": 3.2,
+     "who": "another older man",
+     "does": "stares at the stove and does not look up",
+     "narrates": "in the smoking shack"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "toward the shack doorway"
+    },
+    {
+     "at": 1.8,
+     "move": "pan_left",
+     "to": "across the three men sitting apart"
+    },
+    {
+     "at": 3.2,
+     "move": "push_in",
+     "to": "to the man staring at the stove"
+    }
+   ],
+   "literal": "Needleman stands in the smoking shack doorway and asks a worker about the older men; three of them sit apart on plank benches, one turning a spoon in a tin cup and another staring at the stove; the camera dollies toward the doorway, pans across the men, then pushes in on the stare.",
+   "camera_move": "dolly",
+   "characters": [
+    "three older men"
+   ],
+   "background": "Smoking shack at the plant",
+   "props": [
+    "tin cup",
+    "oil-drum stove"
+   ],
+   "mood_target": "slow, apart",
+   "ambient_visual": "Cigarette smoke curls up from three men and a stove-pipe wisp rises from the oil drum",
+   "ambient_audio": "A stove ticking, a slow cough, a spoon in a tin cup",
+   "ambient_intensity": 2,
+   "complexity": 2,
+   "carry": {
+    "type": "glide",
+    "from": "the staring man's face",
+    "to": "his slow hands",
+    "via": "the camera slides from his eyes along his arm to his slowly moving hands",
+    "frames": 20
+   },
+   "new_assets": [
+    "three older men",
+    "tin cup",
+    "oil-drum stove",
+    "Smoking shack at the plant"
+   ]
+  },
+  {
+   "id": "C055",
+   "beat_id": "B15",
+   "start": 197.78,
+   "end": 200.98,
+   "narration": "moving slowly with distant, empty voices.",
+   "story_function": "escalation",
+   "job": "hold_question",
+   "scene_type": "object_closeup",
+   "setting": {
+    "place": "the smoking shack beside the old Deepwater plant, around 1950",
+    "world_id": "W26",
+    "world": "Tiny wooden shack 6 m by 3 m with a sloped tin roof, three plank benches along the wall, a rusty oil-drum stove, a coffee can of cigarette ends, a single window facing the brick production building, a hook with caps, a worn plank floor, a hand-painted No Spitting sign, peeling green paint",
+    "time_of_day": "midday, dull light through one window",
+    "weather": "overcast, cold, smoke curling up from cigarettes"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "an older man",
+     "does": "lifts a hand with long slow motions to his lips and lowers it again",
+     "narrates": "moving slowly"
+    },
+    {
+     "at": 1.1,
+     "who": "another man",
+     "does": "mouths a few words without sound, staring across the yard",
+     "narrates": "distant, empty voices"
+    },
+    {
+     "at": 2.0,
+     "who": "the third man",
+     "does": "mumbles at his lap, his voice thin and far away",
+     "narrates": "empty voices"
+    },
+    {
+     "at": 2.8,
+     "who": "Needleman",
+     "does": "watches them closely, notebook half raised",
+     "narrates": "distant"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "push_in",
+     "to": "to the slow hand rising to the man's lips"
+    },
+    {
+     "at": 2.0,
+     "move": "orbit",
+     "to": "to the mouths moving with no sound"
+    }
+   ],
+   "literal": "The camera pushes in on an older man's hand rising to his lips in long slow motions, then orbits to two others, one mouthing words without sound and one mumbling thinly to his lap, while Needleman watches them with a notebook half raised.",
+   "camera_move": "push_in",
+   "background": "Smoking shack at the plant",
+   "mood_target": "slow, empty",
+   "ambient_visual": "Smoke from a forgotten cigarette threads upward and a spoon rings softly in a cup",
+   "ambient_audio": "A slow scrape of a bench, a wheeze, a distant empty hum of voices",
+   "ambient_intensity": 2,
+   "complexity": 3,
+   "carry": {
+    "type": "follow_object",
+    "from": "a co-worker's thumb jerking toward the yard",
+    "to": "the co-worker's grin",
+    "via": "the camera follows the jerked thumb up to a grinning old man in the doorway",
+    "frames": 20
+   },
+   "reused_assets": [
+    "Smoking shack at the plant"
+   ],
+   "loop_opened": [
+    "L15: what did the co-worker know about them?"
+   ]
+  },
+  {
+   "id": "C056",
+   "beat_id": "B15",
+   "start": 200.98,
+   "end": 204.9,
+   "narration": "A co -worker answered, Oh yeah, those guys worked in the House of Butterflies.",
+   "story_function": "resolution",
+   "job": "show_event",
+   "scene_type": "character_action",
+   "setting": {
+    "place": "the smoking shack beside the old Deepwater plant, around 1950",
+    "world_id": "W26",
+    "world": "Tiny wooden shack 6 m by 3 m with a sloped tin roof, three plank benches along the wall, a rusty oil-drum stove, a coffee can of cigarette ends, a single window facing the brick production building, a hook with caps, a worn plank floor, a hand-painted No Spitting sign, peeling green paint",
+    "time_of_day": "midday, dull light through one window",
+    "weather": "overcast, cold, smoke curling up from cigarettes"
+   },
+   "actions": [
+    {
+     "at": 0.0,
+     "who": "the old co-worker",
+     "does": "leans in the doorway, jerks a thumb at the older men and grins",
+     "narrates": "A co -worker answered"
+    },
+    {
+     "at": 1.2,
+     "who": "old co-worker",
+     "does": "waves his arms like wings and laughs",
+     "narrates": "Oh yeah"
+    },
+    {
+     "at": 2.2,
+     "who": "the three older men",
+     "does": "slowly brush at their sleeves and chests at nothing",
+     "narrates": "those guys worked in the House of Butterflies"
+    },
+    {
+     "at": 3.1,
+     "who": "Needleman",
+     "does": "lowers his notebook and looks out the window at the building",
+     "narrates": "House of Butterflies"
+    }
+   ],
+   "camera_moves": [
+    {
+     "at": 0.0,
+     "move": "dolly",
+     "to": "in on the old co-worker grinning in the doorway"
+    },
+    {
+     "at": 2.0,
+     "move": "orbit",
+     "to": "around the three older men brushing at nothing"
+    },
+    {
+     "at": 3.2,
+     "move": "pull_back",
+     "to": "through the window to the brick building"
+    }
+   ],
+   "literal": "The old co-worker leans in the shack doorway, jerks a thumb at the older men and grins, waving his arms like wings; the three men slowly brush at their sleeves at nothing while Needleman lowers his notebook and looks at the building; the camera dollies in, orbits the men, then pulls back through the window.",
+   "camera_move": "dolly",
+   "characters": [
+    "old co-worker"
+   ],
+   "background": "Smoking shack at the plant",
+   "mood_target": "wry, final",
+   "ambient_visual": "A swarm of pale paper-white flecks drifts up through the shack's light and through the window toward the brick building",
+   "ambient_audio": "A shack door creaking, a faint beat of fluttering, a long quiet",
+   "ambient_intensity": 3,
+   "complexity": 3,
+   "hero": true,
+   "motif_id": "M1",
+   "motif_event": "end",
+   "reused_assets": [
+    "old co-worker",
+    "Smoking shack at the plant"
+   ],
+   "loop_closed": [
+    "L2",
+    "L15",
+    "L19"
+   ]
+  }
+ ]
+}

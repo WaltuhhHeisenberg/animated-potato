@@ -1,0 +1,250 @@
+/* Three.js Story Video Renderer — styles */
+:root {
+  --bg: #0b0d12;
+  --panel: #141822;
+  --panel-2: #1c2230;
+  --text: #e8eaf2;
+  --muted: #9aa3b8;
+  --accent: #7c9cff;
+  --accent-2: #ff7b9c;
+  --ok: #4ade80;
+  --warn: #fbbf24;
+  --border: #2d3548;
+  --ink: #0b0a0c;
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+a { color: var(--accent); }
+
+header {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid var(--border);
+  background: #0f1218;
+}
+header h1 { margin: 0 0 0.25rem; font-size: 1.25rem; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+}
+nav button {
+  flex: 0 0 auto;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+nav button:hover { border-color: var(--accent); color: var(--accent); }
+nav button.active {
+  background: var(--accent);
+  color: #000;
+  border-color: var(--accent);
+}
+
+main { padding: 1.5rem 2rem; display: grid; gap: 1rem; max-width: 1100px; margin: 0 auto; }
+.panel { display: none; }
+.panel.active { display: block; }
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+.card h2 { margin: 0 0 0.75rem; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem; }
+.card p { margin: 0 0 1rem; color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
+
+.actions { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+.btn {
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--text);
+  padding: 0.55rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+.btn:hover { border-color: var(--muted); background: #242a3a; }
+.btn-primary {
+  background: var(--accent);
+  color: #001a33;
+  border-color: var(--accent);
+}
+.btn-primary:hover { filter: brightness(1.1); }
+.btn-success {
+  background: var(--ok);
+  color: #032d14;
+  border-color: var(--ok);
+}
+.btn-success:hover { filter: brightness(1.05); }
+.btn-secondary {
+  background: transparent;
+}
+.btn-large { padding: 0.7rem 1.5rem; font-size: 1rem; }
+
+.stat {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  text-align: center;
+  min-width: 110px;
+}
+.stat-value { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+.stat-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 0.75rem; margin: 1rem 0; }
+
+.json-editor {
+  width: 100%;
+  background: #0c0e14;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+}
+.json-editor textarea {
+  width: 100%;
+  height: 300px;
+  font-family: ui-monospace, SF Mono, Consolas, monospace;
+  font-size: 0.82rem;
+  background: transparent;
+  color: var(--text);
+  border: none;
+  padding: 0.75rem;
+  resize: vertical;
+  outline: none;
+}
+.json-editor textarea::placeholder { color: var(--muted); }
+
+.preview {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #0c0e14;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  min-height: 60px;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.setting:last-child { border-bottom: none; }
+.setting label { font-size: 0.9rem; color: var(--text); }
+.setting input, .setting select {
+  background: #0c0e14;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.4rem;
+  font-size: 0.85rem;
+}
+
+.render-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+}
+.render-controls label { font-size: 0.85rem; color: var(--muted); display: block; margin-bottom: 0.3rem; }
+.render-controls select, .render-controls input[type="number"] {
+  width: 100%;
+  background: #0c0e14;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.45rem;
+  border-radius: 0.4rem;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #0c0e14;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--ok);
+  transition: width 0.3s;
+}
+
+.hidden { display: none !important; }
+
+footer {
+  padding: 1rem 2rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* 3D viewport */
+#viewport {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #05070a;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+#viewport canvas { display: block; width: 100%; height: 100%; }
+
+.clause-chip {
+  display: inline-block;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.35rem;
+  font-size: 0.75rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.clause-chip.hook { border-color: var(--accent-2); color: var(--accent-2); }
+
+/* style accuracy gauge */
+.gauge {
+  height: 10px;
+  background: #0c0e14;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+.gauge-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--warn), var(--ok));
+  transition: width 0.5s;
+}

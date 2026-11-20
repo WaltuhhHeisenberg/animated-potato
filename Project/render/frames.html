@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>render</title>
+  <style>html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "/vendor/three.module.js",
+        "three/addons/": "/vendor/addons/"
+      }
+    }
+  </script>
+</head>
+<body>
+<script type="module">
+  import { Engine } from './scene-engine.js';
+
+  const params = new URLSearchParams(location.search);
+  const W = parseInt(params.get('w') || '1280', 10);
+  const H = parseInt(params.get('h') || '720', 10);
+
+  window.__ready = false;
+  window.__error = null;
+
+  try {
+    const res = await fetch('/scene-map.json');
+    if (!res.ok) throw new Error('scene-map.json HTTP ' + res.status);
+    const sceneMap = await res.json();
+
+    const engine = new Engine({ width: W, height: H, sceneMap });
+    window.__engine = engine;
+    window.__ready = true;
+    console.log('engine ready', W, 'x', H, 'shots', (sceneMap.shots || []).length);
+  } catch (e) {
+    window.__error = String((e && e.stack) || e);
+    console.error(window.__error);
+  }
+
+  /** Draw the frame at time t and return it as a PNG data URL. */
+  window.renderFrame = async (t) => {
+    if (!window.__engine) throw new Error(window.__error || 'engine not ready');
+    window.__engine.renderAt(t);
+    // one extra tick so the WebGL buffer is definitely resolved
+    await new Promise(requestAnimationFrame);
+    return window.__engine.renderer.domElement.toDataURL('image/png');
+  };
+</script>
+</body>
+</html>

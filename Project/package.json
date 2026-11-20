@@ -1,0 +1,22 @@
+{
+  "name": "threejs-story-video",
+  "version": "1.0.0",
+  "description": "Three.js story video renderer with 90% style accuracy gate against reference sheets",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "dev": "live-server",
+    "render": "node render/render-video.js"
+  },
+  "keywords": ["threejs", "video", "scene-map", "transcript", "style-analysis"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "playwright": "^1.45.0",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
